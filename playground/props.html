@@ -9,22 +9,30 @@
 <body>
     <div id="app">
         <app-header v-bind:propsdata="message"></app-header>
+        <app-content v-bind:propsdata="num"></app-content>
         <!-- v-bind:프롭스 속성이름="상위 컴포넌트 데이터 이름" -->
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
         var appHeader = {
-            template: '<h1>{{propsdata}}</h1>',
+            template: '<h1>{{ propsdata }}</h1>',
             props: ['propsdata']
         }
+        var appContent = {
+            template: '<div>{{ propsdata }}</div>',
+            props: ['propsdata']
+        }
+
         new Vue({
             el: '#app',
             components: {  //객체 리터럴
-                'app-header': appHeader
+                'app-header': appHeader,
+                'app-content': appContent
             },
             data: {
-                message: 'hi'
+                message: 'hi',
+                num: 10
             }
         });
     </script>
