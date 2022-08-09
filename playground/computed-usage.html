@@ -5,31 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .warning {
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <div id="app">
-        {{ num }}
+        <p v-bind:class="errorTextColor">Hello</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
         new Vue({
             el: '#app',
             data: {
-                num: 10
-            },
-            watch: {
-                num: function(newValue) {
-                    this.fetchUserByNumber(newValue)
-                }
+                cname: 'blue-text',
+                isError: false
             },
             computed: {
-                doubleNum: function() {
-                    return this.num * 2;
-                }
-            },
-            methods: {
-                fetchUserByNumber: function(num) {
-                    console.log(num);
+                errorTextColor: function() {
+                    return this.isError ? 'warning' : null;
                 }
             }
         })
