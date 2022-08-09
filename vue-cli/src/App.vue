@@ -1,6 +1,9 @@
 <template>
   <div>
-    <app-header></app-header>
+    <app-header 
+      v-bind:propsdata="str"
+      v-on:renew="renewStr">
+    </app-header>
   </div>
 </template>
 
@@ -15,6 +18,11 @@ export default {
   },
   components: {
     'app-header': AppHeader
+  },
+  methods: {
+    renewStr: function() {
+      this.str = 'hi';
+    }
   }
 }
 </script>
