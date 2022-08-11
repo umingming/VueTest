@@ -4,7 +4,10 @@
             <!-- vs코드라서 바인딩해야 되는 것, 자체에서 오류내는 거임. -->
             <li v-for="(todoItem, index) in todoItems" v-bind:key="todoItem" class="shadow">
                 <i class="checkBtn fas fa-check" v-on:click="toggleComplete"></i>
-                {{ todoItem }}
+                <span class="textCompleted">
+                    {{ todoItem.item }} 
+                </span>
+                <!-- 속성으로 접근할 수 있음. -->
                 <span class="removeBtn" v-on:click="removeTodo(todoItem, index)">
                     <i class="fas fa-trash-alt"></i>
                 </span>
