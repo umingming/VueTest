@@ -2,7 +2,7 @@
     <div>
         <ul>
             <!-- vs코드라서 바인딩해야 되는 것, 자체에서 오류내는 거임. -->
-            <li v-for="(todoItem, index) in todoItems" v-bind:key="todoItem.item" class="shadow">
+            <li v-for="(todoItem, index) in propsdata" v-bind:key="todoItem.item" class="shadow">
                 <i class="checkBtn fas fa-check" v-bind:class="{checkBtnCompleted: todoItem.completed}"
                 v-on:click="toggleComplete(todoItem, index)"></i>
                 <span v-bind:class="{textCompleted: todoItem.completed}">
@@ -24,7 +24,8 @@ export default {
         return {
             todoItems: []
         }
-    },
+    }, 
+    props: ['propsdata'],
     methods: {
         removeTodo: function(todoItem, index) {
             console.log(todoItem, index);
@@ -38,16 +39,16 @@ export default {
             console.log(index);
         }
     },
-    created: function() {
-        if (localStorage.length > 0) {
-            for (var i = 0; i < localStorage.length; i++) {
+    // created: function() {
+    //     if (localStorage.length > 0) {
+    //         for (var i = 0; i < localStorage.length; i++) {
 //                this.todoItems.push(localStorage.key(i));
 //                console.log(typeof localStorage.getItem(localStorage.key(i))); //문자열
                 //console.log(JSON.parse(localStorage.getItem(localStorage.key(i)))); //String 값을 json으로 변환
-                this.todoItems.push(JSON.parse(localStorage.getItem(localStorage.key(i))))
-            }
-        }
-    }
+    //             this.todoItems.push(JSON.parse(localStorage.getItem(localStorage.key(i))))
+    //         }
+    //     }
+    // }
 
 }
 </script>
