@@ -17,10 +17,11 @@ export default {
   methods: {
     addTodo: function() {
       if (this.newTodoItem !== '') {
-        var obj = {completed: false, item: this.newTodoItem};
-        localStorage.setItem(this.newTodoItem, JSON.stringify(obj)); //자바스크립트 객체를 스트링 값으로 변환.
-        //이렇게만 하면 새로고침해야 화면에 반영됨.
+        this.$emit('addTodoItem', this.newTodoItem);        
         this.clearInput();
+        // var obj = {completed: false, item: this.newTodoItem};
+        // localStorage.setItem(this.newTodoItem, JSON.stringify(obj)); //자바스크립트 객체를 스트링 값으로 변환.
+        //이렇게만 하면 새로고침해야 화면에 반영됨.
       }
 //      localStorage.setItem(this.newTodoItem, obj);  //값을 로컬스트리지에서 확인할 수 없음. [object Object]로 감.
     },
