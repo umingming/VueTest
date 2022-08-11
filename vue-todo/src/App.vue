@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <TodoHeader></TodoHeader>
-    <TodoInput></TodoInput>
+    <TodoInput v-on:addTodoItem="addOneItem"></TodoInput>
     <TodoList v-bind:propsdata="todoItems"></TodoList>
     <TodoFooter></TodoFooter>
   </div>
@@ -19,6 +19,13 @@ export default {
       todoItems: []
     }
   }, 
+  methods: {
+    addOneItem: function(todoItem) {
+      var obj = {completed: false, item: todoItem};
+      localStorage.setItem(this.newTodoItem, JSON.stringify(obj));
+      this.todoItems.push(obj);  //추가하면 바로 목록에서 보일 수 있음. 상위컴포넌트에서 반영이 돼서
+    }
+  },
   created: function() {
     if (localStorage.length > 0) {
       for (var i = 0; i < localStorage.length; i++) {
