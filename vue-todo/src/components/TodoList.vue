@@ -2,9 +2,10 @@
     <div>
         <ul>
             <!-- vs코드라서 바인딩해야 되는 것, 자체에서 오류내는 거임. -->
-            <li v-for="(todoItem, index) in todoItems" v-bind:key="todoItem" class="shadow">
-                <i class="checkBtn fas fa-check" v-on:click="toggleComplete"></i>
-                <span class="textCompleted">
+            <li v-for="(todoItem, index) in todoItems" v-bind:key="todoItem.item" class="shadow">
+                <i class="checkBtn fas fa-check" v-bind:class="{checkBtnCompleted: todoItem.completed}"
+                v-on:click="toggleComplete(todoItem, index)"></i>
+                <span v-bind:class="{textCompleted: todoItem.completed}">
                     {{ todoItem.item }} 
                 </span>
                 <!-- 속성으로 접근할 수 있음. -->
@@ -27,11 +28,14 @@ export default {
     methods: {
         removeTodo: function(todoItem, index) {
             console.log(todoItem, index);
-            localStorage.removeItem(todoItem); //브라우저 저장소 영역이라 화면에선 안 지워짐.
+            localStorage.removeItem(todoItem.item); //브라우저 저장소 영역이라 화면에선 안 지워짐.
             this.todoItems.splice(index, 1) //js 배열 이벤트로 특정 인덱스에서 하나 지울 수 있음.
         },
-        toggleComplete: function() {
-            
+        toggleComplete: function(todoItem, index) {
+            todoItem.completed = !todoItem.completed;
+            localStorage.removeItem(todoItem.item);
+            localStorage.setItem(todoItem.item, JSON.stringify(todoItem));
+            console.log(index);
         }
     },
     created: function() {
