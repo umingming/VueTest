@@ -4,14 +4,24 @@
     <span class="addContainer" v-on:click="addTodo">
       <i class="fas fa-plus addBtn"></i>
     </span>
+    <Modal v-if="showModal" @close="showModal = false">
+      <!--
+        you can use custom content here to overwrite
+        default content
+      -->
+      <h3 slot="header">custom header</h3>
+    </Modal>
   </div>
 </template>
 
 <script>
+import Modal from './common/Modal.vue'
+
 export default {
   data: function() {
     return {
-      newTodoItem: ""
+      newTodoItem: "",
+      showModal: false
     }
   },
   methods: {
@@ -22,11 +32,16 @@ export default {
         // var obj = {completed: false, item: this.newTodoItem};
         // localStorage.setItem(this.newTodoItem, JSON.stringify(obj)); //자바스크립트 객체를 스트링 값으로 변환.
         //이렇게만 하면 새로고침해야 화면에 반영됨.
+      } else {
+        alert('type')
       }
 //      localStorage.setItem(this.newTodoItem, obj);  //값을 로컬스트리지에서 확인할 수 없음. [object Object]로 감.
     },
     clearInput: function() {
       this.newTodoItem = '';
+    },
+    components: {
+      Modal
     }
   }
 }
