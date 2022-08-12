@@ -46,10 +46,10 @@ export default {
     },
     clearInput: function() {
       this.newTodoItem = '';
-    },
-    components: {
-      AlertModal: AlertModal
     }
+  },
+  components: {
+    AlertModal
   }
 }
 </script>
