@@ -4,18 +4,25 @@
     <span class="addContainer" v-on:click="addTodo">
       <i class="fas fa-plus addBtn"></i>
     </span>
-    <Modal v-if="showModal" @close="showModal = false">
+    <AlertModal v-if="showModal" @close="showModal = false">
       <!--
         you can use custom content here to overwrite
         default content
       -->
-      <h3 slot="header">custom header</h3>
-    </Modal>
+      <template v-slot:header>
+        <h3>new button</h3>
+      </template>
+    </AlertModal>
+    <!-- <AlertModal :show="showModal" @close="showModal = false">
+      <template #header>
+        <h3>경고</h3>
+      </template>
+    </AlertModal> -->
   </div>
 </template>
 
 <script>
-import Modal from './common/Modal.vue'
+import AlertModal from './common/AlertModal.vue'
 
 export default {
   data: function() {
@@ -33,7 +40,7 @@ export default {
         // localStorage.setItem(this.newTodoItem, JSON.stringify(obj)); //자바스크립트 객체를 스트링 값으로 변환.
         //이렇게만 하면 새로고침해야 화면에 반영됨.
       } else {
-        alert('type')
+        this.showModal = !this.showModal;
       }
 //      localStorage.setItem(this.newTodoItem, obj);  //값을 로컬스트리지에서 확인할 수 없음. [object Object]로 감.
     },
@@ -41,7 +48,7 @@ export default {
       this.newTodoItem = '';
     },
     components: {
-      Modal
+      AlertModal: AlertModal
     }
   }
 }
