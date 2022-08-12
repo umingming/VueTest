@@ -25,7 +25,8 @@ export default {
   }, 
   methods: {
     addOneItem: function(todoItem) {
-      var obj = {completed: false, item: todoItem};
+      const obj = {completed: false, item: todoItem};
+      //overriding 방지
       localStorage.setItem(todoItem, JSON.stringify(obj));
       this.todoItems.push(obj);  //추가하면 바로 목록에서 보일 수 있음. 상위컴포넌트에서 반영이 돼서
     },
@@ -47,7 +48,8 @@ export default {
   },
   created: function() {
     if (localStorage.length > 0) {
-      for (var i = 0; i < localStorage.length; i++) {
+      for (let i = 0; i < localStorage.length; i++) {
+        //반복문은 무조건 let
         this.todoItems.push(JSON.parse(localStorage.getItem(localStorage.key(i))))
       }
     }
