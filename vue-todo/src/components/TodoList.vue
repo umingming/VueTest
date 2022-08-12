@@ -1,6 +1,6 @@
 <template>
     <div>
-        <ul>
+        <transition-group name="list" tag="ul">
             <!-- vs코드라서 바인딩해야 되는 것, 자체에서 오류내는 거임. -->
             <li v-for="(todoItem, index) in propsdata" v-bind:key="todoItem.item" class="shadow">
                 <i class="checkBtn fas fa-check" v-bind:class="{checkBtnCompleted: todoItem.completed}"
@@ -14,7 +14,7 @@
                 </span>
                 <!-- <button v-on:click>delete</button> -->
             </li>
-        </ul>
+        </transition-group>
     </div>
 </template>
 
@@ -86,4 +86,16 @@ li {
     color: #DE4343;
 }
 
+/* 리스트 아이템 트랜지션 효과 */
+/* .list-item {
+    display: inline-block;
+    margin-right: 10px;
+} */
+.list-enter-active, .list-leave-active {
+    transition: all 1s;
+}
+.list-enter, .list-leave-to {
+    opacity: 0;
+    transform: translateY(10px);
+}
 </style>

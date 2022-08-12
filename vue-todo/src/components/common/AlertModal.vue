@@ -11,7 +11,6 @@
                         <slot name="header">
                           default header
                         </slot> 
-                        
                     </div>
 
                     <!-- 모달 바디 -->

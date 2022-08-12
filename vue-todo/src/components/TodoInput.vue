@@ -10,7 +10,16 @@
         default content
       -->
       <template v-slot:header>
-        <h3>new button</h3>
+        <h3>
+          경고!
+          <i class="closeModalBtn fas fa-times" @click="showModal = false"></i>
+        </h3>
+      </template>
+      <template v-slot:body>
+        <h3>무언가를 입력하세요</h3>
+      </template>
+      <template v-slot:footer>
+        <h3>copy right</h3>
       </template>
     </AlertModal>
     <!-- <AlertModal :show="showModal" @close="showModal = false">
@@ -78,5 +87,8 @@ input:focus {
 .addBtn {
   color: white;
   vertical-align: middle;
+}
+.closeModalBtn {
+  color: #42b983;
 }
 </style>
