@@ -24,29 +24,29 @@ export default {
     }
   }, 
   methods: {
-    addOneItem: function(todoItem) {
+    addOneItem(todoItem) {
       const obj = {completed: false, item: todoItem};
       //overriding 방지
       localStorage.setItem(todoItem, JSON.stringify(obj));
       this.todoItems.push(obj);  //추가하면 바로 목록에서 보일 수 있음. 상위컴포넌트에서 반영이 돼서
     },
-    removeOneItem: function(todoItem, index) {
+    removeOneItem(todoItem, index) {
       localStorage.removeItem(todoItem.item); //브라우저 저장소 영역이라 화면에선 안 지워짐.
       this.todoItems.splice(index, 1) //js 배열 이벤트로 특정 인덱스에서 하나 지울 수 있음.
     },
-    toggleOneItem: function(todoItem, index) {
+    toggleOneItem(todoItem, index) {
 //      todoItem.completed = !todoItem.completed;
       this.todoItems[index].completed = !this.todoItems[index].completed;
       localStorage.removeItem(todoItem.item);
       localStorage.setItem(todoItem.item, JSON.stringify(todoItem));
       console.log(index);
     },
-    clearAllItems: function() {
+    clearAllItems() {
       localStorage.clear();
       this.todoItems = [];
     }
   },
-  created: function() {
+  created() {
     if (localStorage.length > 0) {
       for (let i = 0; i < localStorage.length; i++) {
         //반복문은 무조건 let
