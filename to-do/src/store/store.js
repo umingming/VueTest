@@ -35,10 +35,9 @@ export const store = new Vuex.Store({
         toggleOneItem(state, todoItem, index) {
             //      todoItem.completed = !todoItem.completed;
 //            state.todoItems[index].completed = !state.todoItems[index].completed;
-            console.log(state.todoItems[index]);
+            console.log(index);
             localStorage.removeItem(todoItem.item);
             localStorage.setItem(todoItem.item, JSON.stringify(todoItem));
-            console.log(index);
         }
     }    
 
