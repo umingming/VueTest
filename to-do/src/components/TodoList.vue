@@ -2,7 +2,7 @@
     <div>
         <transition-group name="list" tag="ul">
             <!-- vs코드라서 바인딩해야 되는 것, 자체에서 오류내는 거임. -->
-            <li v-for="(todoItem, index) in propsdata" v-bind:key="todoItem.item" class="shadow">
+            <li v-for="(todoItem, index) in this.$store.state.todoItems" v-bind:key="todoItem.item" class="shadow">
                 <i class="checkBtn fas fa-check" v-bind:class="{checkBtnCompleted: todoItem.completed}"
                 v-on:click="toggleComplete(todoItem, index)"></i>
                 <span v-bind:class="{textCompleted: todoItem.completed}">
