@@ -50,7 +50,9 @@ export default {
     if (localStorage.length > 0) {
       for (let i = 0; i < localStorage.length; i++) {
         //반복문은 무조건 let
-        this.todoItems.push(JSON.parse(localStorage.getItem(localStorage.key(i))))
+        this.todoItems.push(JSON.parse(localStorage.getItem(localStorage.key(i))));
+        console.log();
+        
       }
     }
   },
