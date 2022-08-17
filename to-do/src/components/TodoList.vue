@@ -4,7 +4,7 @@
             <!-- vs코드라서 바인딩해야 되는 것, 자체에서 오류내는 거임. -->
             <li v-for="(todoItem, index) in this.todoItems" v-bind:key="todoItem.item" class="shadow">
                 <i class="checkBtn fas fa-check" v-bind:class="{checkBtnCompleted: todoItem.completed}"
-                v-on:click="toggleComplete(todoItem, index)"></i>
+                v-on:click="toggleComplete({todoItem, index})"></i>
                 <span v-bind:class="{textCompleted: todoItem.completed}">
                     {{ todoItem.item }} 
                 </span>
@@ -25,7 +25,8 @@ export default {
     props: ['propsdata'],
     methods: {
         ...mapMutations({
-            removeTodo: 'removeOneItem'  //인자를 선언 안 해도 암묵적으로 넘김.
+            removeTodo: 'removeOneItem',  //인자를 선언 안 해도 암묵적으로 넘김.
+            toggleComplete: 'toggleOneItem'
         }),
         // removeTodo: function(todoItem, index) {
 
@@ -39,13 +40,13 @@ export default {
             //localStorage.removeItem(todoItem.item); //브라우저 저장소 영역이라 화면에선 안 지워짐.
             //this.todoItems.splice(index, 1) //js 배열 이벤트로 특정 인덱스에서 하나 지울 수 있음.
         // },
-        toggleComplete: function(todoItem, index) {
-            //this.$emit('toggleItem', todoItem, index);
-            this.$store.commit('toggleOneItem', {
-                todoItem: todoItem,
-                index: index
-            });
-        }
+        // toggleComplete: function(todoItem, index) {
+        //     //this.$emit('toggleItem', todoItem, index);
+        //     this.$store.commit('toggleOneItem', {
+        //         todoItem: todoItem,
+        //         index: index
+        //     });
+        // }
     },
     computed: {
         // todoItems() {
