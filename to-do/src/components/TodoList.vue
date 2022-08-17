@@ -30,10 +30,7 @@ export default {
         removeTodo: function(todoItem, index) {
             // this.$emit('removeItem', todoItem, index);
             console.log(index);
-            this.$store.commit('removeOneItem', {
-                todoItem: todoItem,
-                index: index
-            });
+            this.$store.commit('removeOneItem', {todoItem, index});
             
                 
         
