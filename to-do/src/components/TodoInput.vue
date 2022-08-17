@@ -5,10 +5,6 @@
       <i class="fas fa-plus addBtn"></i>
     </span>
     <AlertModal v-if="showModal" @close="showModal = false">
-      <!--
-        you can use custom content here to overwrite
-        default content
-      -->
       <template v-slot:header>
         <h3>
           경고!
@@ -22,11 +18,6 @@
         <h3>copy right</h3>
       </template>
     </AlertModal>
-    <!-- <AlertModal :show="showModal" @close="showModal = false">
-      <template #header>
-        <h3>경고</h3>
-      </template>
-    </AlertModal> -->
   </div>
 </template>
 
@@ -43,16 +34,11 @@ export default {
   methods: {
     addTodo: function() {
       if (this.newTodoItem !== '') {
-        //this.$emit('addTodoItem', this.newTodoItem);        
         this.$store.commit('addOneItem', this.newTodoItem);
         this.clearInput();
-        // var obj = {completed: false, item: this.newTodoItem};
-        // localStorage.setItem(this.newTodoItem, JSON.stringify(obj)); //자바스크립트 객체를 스트링 값으로 변환.
-        //이렇게만 하면 새로고침해야 화면에 반영됨.
       } else {
         this.showModal = !this.showModal;
       }
-//      localStorage.setItem(this.newTodoItem, obj);  //값을 로컬스트리지에서 확인할 수 없음. [object Object]로 감.
     },
     clearInput: function() {
       this.newTodoItem = '';
