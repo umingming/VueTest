@@ -9,7 +9,7 @@
                     {{ todoItem.item }} 
                 </span>
                 <!-- 속성으로 접근할 수 있음. -->
-                <span class="removeBtn" v-on:click="removeTodo(todoItem, index)">
+                <span class="removeBtn" v-on:click="removeTodo({todoItem, index})">
                     <i class="fas fa-trash-alt"></i>
                 </span>
                 <!-- <button v-on:click>delete</button> -->
@@ -19,22 +19,26 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import { mapGetters, mapMutations } from 'vuex'
 
 export default {
     props: ['propsdata'],
     methods: {
-        removeTodo: function(todoItem, index) {
+        ...mapMutations({
+            removeTodo: 'removeOneItem'  //인자를 선언 안 해도 암묵적으로 넘김.
+        }),
+        // removeTodo: function(todoItem, index) {
+
             // this.$emit('removeItem', todoItem, index);
-            console.log(index);
-            this.$store.commit('removeOneItem', {todoItem, index});
+            // console.log(index);
+            // this.$store.commit('removeOneItem', {todoItem, index});
             
                 
         
         //todoItem, index);
             //localStorage.removeItem(todoItem.item); //브라우저 저장소 영역이라 화면에선 안 지워짐.
             //this.todoItems.splice(index, 1) //js 배열 이벤트로 특정 인덱스에서 하나 지울 수 있음.
-        },
+        // },
         toggleComplete: function(todoItem, index) {
             //this.$emit('toggleItem', todoItem, index);
             this.$store.commit('toggleOneItem', {
