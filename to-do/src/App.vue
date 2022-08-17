@@ -2,7 +2,7 @@
   <div id="app">
     <TodoHeader></TodoHeader>
     <TodoInput></TodoInput>
-    <TodoList v-bind:propsdata="todoItems"></TodoList>
+    <TodoList></TodoList>
     <TodoFooter></TodoFooter>
   </div>
 </template>
