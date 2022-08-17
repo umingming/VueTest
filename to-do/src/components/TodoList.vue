@@ -6,7 +6,7 @@
                 <i class="checkBtn fas fa-check" v-bind:class="{checkBtnCompleted: todoItem.completed}"
                 v-on:click="toggleComplete(todoItem, index)"></i>
                 <span v-bind:class="{textCompleted: todoItem.completed}">
-                    {{ index }} {{ todoItem }} {{ todoItem.item }} 
+                    {{ todoItem.item }} 
                 </span>
                 <!-- 속성으로 접근할 수 있음. -->
                 <span class="removeBtn" v-on:click="removeTodo(todoItem, index)">
