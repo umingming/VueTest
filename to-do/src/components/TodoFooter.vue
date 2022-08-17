@@ -10,7 +10,7 @@
 export default {
   methods: {
     clearTodo: function() {
-      this.$emit('clearAll');
+      this.$store.commit('clearAllItems');
     }
   }
 }  
@@ -28,5 +28,6 @@ export default {
 .clearAllBtn {
   color: #e20303;
   display: block;
+  cursor: pointer;
 }
 </style>

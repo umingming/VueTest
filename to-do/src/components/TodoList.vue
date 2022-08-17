@@ -48,7 +48,7 @@ export default {
                 index: index
             });
         }
-    },
+    }
     // created: function() {
     //     if (localStorage.length > 0) {
     //         for (var i = 0; i < localStorage.length; i++) {
@@ -85,6 +85,7 @@ li {
     line-height: 45px;
     color: #62ACDE;
     margin-right: 5px;
+    cursor: pointer;
 }
 .checkBtnCompleted {
     color: #B3ADAD;
@@ -96,6 +97,7 @@ li {
 .removeBtn {
     margin-left: auto;
     color: #DE4343;
+    cursor: pointer;
 }
 
 /* 리스트 아이템 트랜지션 효과 */
