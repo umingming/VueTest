@@ -88,6 +88,7 @@ input:focus {
 .addBtn {
   color: white;
   vertical-align: middle;
+  cursor: pointer;
 }
 .closeModalBtn {
   color: #42b983;
