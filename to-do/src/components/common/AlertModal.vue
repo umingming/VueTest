@@ -3,24 +3,18 @@
         <div class="modal-mask">
             <div class="modal-wrapper">
                 <div class="modal-container">
-                    <!-- 모달 헤더 -->
                     <div class="modal-header">
-                      <!-- slot; 재정의
-                          특정 컴포넌트 ui 재사용
-                        -->
                         <slot name="header">
                           default header
                         </slot> 
                     </div>
 
-                    <!-- 모달 바디 -->
                     <div class="modal-body">
                       <slot name="body">
                         default body
                         </slot>
                     </div>
 
-                    <!-- 모달 푸터 -->
                     <div class="modal-footer">
                         <slot name="footer">
                         default footer

@@ -2,8 +2,9 @@
     <div>
         <transition-group name="list" tag="ul">
             <li v-for="(todoItem, index) in this.todoItems" v-bind:key="todoItem.item" class="shadow">
-                <i class="checkBtn fas fa-check" v-bind:class="{checkBtnCompleted: todoItem.completed}"
-                v-on:click="toggleComplete({todoItem, index})"></i>
+                <i class="checkBtn fas fa-check" 
+                    v-bind:class="{checkBtnCompleted: todoItem.completed}"
+                    v-on:click="toggleComplete({todoItem, index})"></i>
                 <span v-bind:class="{textCompleted: todoItem.completed}">
                     {{ todoItem.item }} 
                 </span>
@@ -19,7 +20,6 @@
 import { mapGetters, mapMutations } from 'vuex'
 
 export default {
-    props: ['propsdata'],
     methods: {
         ...mapMutations({
             removeTodo: 'removeOneItem', 
