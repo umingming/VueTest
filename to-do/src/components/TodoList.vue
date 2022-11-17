@@ -1,7 +1,8 @@
 <template>
     <div>
         <transition-group name="list" tag="ul">
-            <li v-for="(todoItem, index) in this.todoItems" v-bind:key="todoItem.item" class="shadow">
+            <li v-for="(todoItem, index) in this.todoItems" v-bind:key="index" class="shadow"> 
+            <!-- v-bind:key; index 접근하는 키값으로 보통 인덱스 사용 -->
                 <i class="checkBtn fas fa-check" 
                     v-bind:class="{checkBtnCompleted: todoItem.completed}"
                     v-on:click="toggleComplete({todoItem, index})"></i>

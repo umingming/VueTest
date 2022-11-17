@@ -21,12 +21,12 @@ const getters = {
         return state.todoItems;
     }
 }
-
+// 로컬스토리지/세션스토리지
 const mutations = {
     addOneItem(state, todoItem) {
         const obj = { completed: false, item: todoItem };
-        localStorage.setItem(todoItem, JSON.stringify(obj));
         state.todoItems.push(obj);
+        localStorage.setItem(state.todoItems.length-1, JSON.stringify(obj));
     },
     removeOneItem(state, payload) {
         state.todoItems.splice(payload.index, 1) 
