@@ -7,6 +7,7 @@
     <AlertModal v-if="showModal" @close="showModal = false">
       <template v-slot:header>
         <h3>
+          {{ str }}
           경고!
           <i class="closeModalBtn fas fa-times" @click="showModal = false"></i>
         </h3>
@@ -28,8 +29,12 @@ export default {
   data: function() {
     return {
       newTodoItem: "",
-      showModal: false
+      showModal: false,
+      str: "",
     }
+  },
+  created() {
+    this.str = '\u0041\uD55C';
   },
   methods: {
     addTodo: function() {
@@ -42,7 +47,11 @@ export default {
     },
     clearInput: function() {
       this.newTodoItem = '';
-    }
+    },
+    getValue: function() {
+      this.str = '\u0041\uD55C';
+      return this.str;
+    },
   },
   components: {
     AlertModal
