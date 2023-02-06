@@ -17,9 +17,10 @@ export default {
         };
     },
     created() {
+        //화살표 함수를 사용하면 호출되는 위치로 this가 바인딩됨/.
         fetchNewsList()
-            .then((response) => (this.users = response.data))
-            .catch((error) => console.log(error));
+            .then(response => this.users = response.data)
+            .catch(error => console.log(error));
 
         // var vm = this; //axios 내에서 화살표함수를 안 쓸 경우 this를 따로 할당해줘야 함.
         // axios.get('https://api.hnpwa.com/v0/news/1.json')
