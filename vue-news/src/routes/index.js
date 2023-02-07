@@ -28,11 +28,11 @@ export const router = new VueRouter({  //export해줘야 다른 파일에서 참
             component: JobsView,
         },
         {
-            path: '/item',
+            path: '/item/:id',
             component: ItemView,
         },
         {
-            path: '/user',
+            path: '/user/:id',
             component: UserView,
         },
     ]

@@ -1,7 +1,9 @@
 <template>
     <div>
         <p v-for="(item, index) in fetchedAsk" :key="index">
-            <a :href="item.url">{{ item.title }}</a>
+            <router-link :to="`/item/${item.url.split('=')[1]}`">{{
+                item.title
+            }}</router-link>
             <small>{{ item.time_ago }} by {{ item.user }}</small>
         </p>
     </div>
@@ -20,6 +22,9 @@ export default {
         //     askItems: "fetchedAsk",
         // }),
         ...mapGetters(["fetchedAsk"]), //바로 쓰고 싶으면 배열로
+        itemUrl() {
+            return this.$store.state.user;
+        },
     },
     created() {
         this.$store.dispatch("FETCH_ASK");

@@ -14,9 +14,17 @@ function fetchAskList() {
 function fetchJobsList() {
     return axios.get(`${config.baseUrl}jobs/1.json`); //리턴이 핵심
 }
+function fetchUserInfo(userName) {
+    return axios.get(`${config.baseUrl}user/${userName}.json`); //리턴이 핵심
+}
+function fetchItemInfo(id) {
+    return axios.get(`${config.baseUrl}item/${id}.json`); //리턴이 핵심
+}
 
 export {
     fetchNewsList,
     fetchAskList,
-    fetchJobsList
+    fetchJobsList,
+    fetchUserInfo,
+    fetchItemInfo
 }

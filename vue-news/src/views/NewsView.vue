@@ -1,8 +1,14 @@
 <template>
     <div>
         <div v-for="(item, index) in $store.state.news" :key="index">
-            <a v-bind:href="item.url">{{ item.title }}</a>
-            <small>{{ item.time_ago }} by {{ item.user }}</small>
+            <a v-bind:href="item.url">
+                {{ item.title }}
+            </a>
+            <small>
+                {{ item.time_ago }} by 
+                <router-link :to="`/user/${item.user}`">{{ item.user }}</router-link> 
+                <!-- v-vind 데이터는 꼭 : 표기 해줘야 함. -->
+            </small>
             <!-- url접근 v-bind 왜? item 안에 있는 데이터를 연결하기 위해서! 기본이면 걍 href 쓰면 됨. -->
         </div>
     </div>
