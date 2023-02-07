@@ -1,7 +1,9 @@
 <template>
     <div>
-        <div v-for="(user, index) in $store.state.news" :key="index">
-            {{ user.title }}
+        <div v-for="(item, index) in $store.state.news" :key="index">
+            <a v-bind:href="item.url">{{ item.title }}</a>
+            <small>{{ item.time_ago }} by {{ item.user }}</small>
+            <!-- url접근 v-bind 왜? item 안에 있는 데이터를 연결하기 위해서! 기본이면 걍 href 쓰면 됨. -->
         </div>
     </div>
 </template>
@@ -17,7 +19,7 @@ export default {
         };
     },
     created() {
-        this.$store.dispatch('FETCH_NEWS');
+        this.$store.dispatch("FETCH_NEWS");
         //화살표 함수를 사용하면 호출되는 위치로 this가 바인딩됨/.
         // fetchNewsList()
         //     .then(response => this.users = response.data)
