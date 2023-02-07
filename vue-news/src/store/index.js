@@ -1,23 +1,21 @@
 import Vue from 'vue';
 import Vuex from 'vuex'; //npm i vuex
-import { fetchNewsList } from '../api/index.js';
+import mutations from './mutations.js';
+import actions from './actions.js';
 
 Vue.use(Vuex);
 
 export const store = new Vuex.Store({
     state: {
-        news: []
+        news: [],
+        jobs: [],
+        ask: []
     },
-    mutations: {
-        SET_NEWS(state, news) { //인자는 state, 받는 인자 순
-            state.news = news;
+    mutations,
+    getters: { //computed와 동일
+        fetchedAsk(state) {
+            return state.ask;
         }
     },
-    actions: { //api 호출
-        FETCH_NEWS(context) { //mutatil호출을 위한 인자 제공
-            fetchNewsList()
-                .then(response => context.commit('SET_NEWS', response.data)) //state에 바로 넣어줄 수 없음.
-                .catch(error => console.log(error));
-        }
-    }
+    actions
 });
