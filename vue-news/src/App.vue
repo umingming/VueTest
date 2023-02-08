@@ -5,7 +5,9 @@
 케밥으로 했을 경우 자동 링크 생성 됨.
 근데 파스칼로 해도 되네
 -->
-        <router-view></router-view>
+        <transition name="page">
+            <router-view></router-view>
+        </transition>
         <!-- url 주소에 따라 view가 뿌려짐. -->
     </div>
 </template>
@@ -25,5 +27,14 @@ export default {
 body {
     padding: 0;
     margin: 0;
+}
+/* 부드러운 페이지 이동 */
+.page-enter-active,
+.page-leave-active {
+    transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+    opacity: 0;
 }
 </style>
