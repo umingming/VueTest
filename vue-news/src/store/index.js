@@ -17,6 +17,9 @@ export const store = new Vuex.Store({
     getters: { //computed와 동일
         fetchedAsk(state) {
             return state.ask;
+        },
+        fetchedItem(state) {
+            return state.item;
         }
     },
     actions
