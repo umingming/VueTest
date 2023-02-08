@@ -1,9 +1,30 @@
 <template>
     <div>
-        <p v-for="(job, index) in $store.state.jobs" :key="index">
-            <a :href="job.url">{{ job.title }}</a>
-            <small>{{ job.time_ago }} by {{ job.domain }}</small>
-        </p>
+        <ul class="jobs-list">
+            <li
+                v-for="(item, index) in $store.state.jobs"
+                :key="index"
+                class="post"
+            >
+                <div class="points">
+                    {{ item.points || 0 }}
+                </div>
+                <div>
+                    <p class="jobs-title">
+                        <a v-bind:href="item.url">
+                            {{ item.title }}
+                        </a>
+                    </p>
+                    <small class="link-text">
+                        {{ item.time_ago }} by
+                        <a :href="item.url" class="link-text">
+                            {{ item.domain }}
+                        </a>
+                        <!-- v-vind 데이터는 꼭 : 표기 해줘야 함. -->
+                    </small>
+                </div>
+            </li>
+        </ul>
     </div>
 </template>
 
@@ -24,5 +45,27 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.jobs-list {
+    margin: 0;
+    padding: 0;
+}
+.post {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+.points {
+    width: 80px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* 가로 중앙 정렬 */
+    color: #42b883;
+}
+.link-text {
+    color: #828282;
+}
 </style>

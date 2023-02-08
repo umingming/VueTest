@@ -1,10 +1,30 @@
 <template>
     <div>
+        <ul class="ask-list">
+            <li
+                v-for="(item, index) in fetchedAsk"
+                :key="index"
+                class="post"
+            >
+                <div class="points">
+                    {{ item.comments_count }}
+                </div>
+                <div>
+                    <p class="ask-title">
+                        <router-link :to="`/item/${item.id}`">{{ item.title }}</router-link>
+                    </p>
+                    <small class="link-text">
+                        {{ item.time_ago }} by 
+                        <router-link :to="`/user/${item.user}`">{{ item.user }}</router-link>
+                        <!-- v-vind 데이터는 꼭 : 표기 해줘야 함. -->
+                    </small>
+                </div>
+            </li>
+        </ul>
         <p v-for="(item, index) in fetchedAsk" :key="index">
             <!-- <router-link :to="`/item/${item.url.split('=')[1]}`">{{
                 item.title
             }}</router-link> -->
-            <router-link :to="`/item/${item.id}`">{{ item.title }}</router-link>
             <small>{{ item.time_ago }} by {{ item.user }}</small>
         </p>
     </div>
@@ -33,5 +53,27 @@ export default {
 };
 </script>
 
-<style>
+<style scope>
+.ask-list {
+    margin: 0;
+    padding: 0;
+}
+.post {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+.points {
+    width: 80px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* 가로 중앙 정렬 */
+    color: #42b883;
+}
+.link-text {
+    color: #828282;
+}
 </style>
