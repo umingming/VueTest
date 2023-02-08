@@ -20,6 +20,12 @@ export const store = new Vuex.Store({
         },
         fetchedItem(state) {
             return state.item;
+        },
+        fetchedNews(state) {
+            return state.news;
+        },
+        fetchedJobs(state) {
+            return state.jobs;
         }
     },
     actions
