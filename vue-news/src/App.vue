@@ -9,13 +9,14 @@
             <router-view></router-view>
         </transition>
         <!-- url 주소에 따라 view가 뿌려짐. -->
-        <spinner-bar :loading="true"></spinner-bar>
+        <spinner-bar :loading="loadingStatus"></spinner-bar>
     </div>
 </template>
 
 <script>
 import ToolBar from "./components/ToolBar.vue";
 import SpinnerBar from "./components/SpinnerBar.vue";
+import bus from "./utils/bus";
 
 export default {
     name: "App",
@@ -23,6 +24,34 @@ export default {
         ToolBar,
         SpinnerBar,
     },
+    data() {
+        return {
+            loadingStatus: false,
+        };
+    },
+    methods: {
+        startSpinner() {
+            this.loadingStatus = true;
+        },
+        endSpinner() {
+            this.loadingStatus = false;
+        },
+    },
+    created() {
+        bus.$on("start:spinner", this.startSpinner);
+        bus.$on("end:spinner", this.endSpinner);
+    },
+    // 컴포넌트 역할이 끝나면 꼭 off 해줘야 됨.
+    beforeDestroy() {
+        bus.$off("start:spinner", this.startSpinner);
+        bus.$off("end:spinner", this.endSpinner);
+        // ()넣으면 에러 생김.
+    },
+
+    /*
+        하이 오더 컴포넌트
+        컴포넌트 로직을 재사용하기 위한 기술
+    */
 };
 </script>
 
@@ -52,3 +81,7 @@ a.router-link-exact-active {
     opacity: 0;
 }
 </style>
+
+
+
+
