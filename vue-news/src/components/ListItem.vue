@@ -1,31 +1,39 @@
 <template>
     <div>
-        <ul class="news-list">
+        <ul class="list">
             <li v-for="(item, index) in items" :key="index" class="post">
                 <div class="points">
                     {{ item.points || 0 }}
                 </div>
                 <div>
                     <p class="title">
-                        <a v-if="item.domain" :href="item.url">
-                            {{ item.title }}
-                        </a>
-                        <router-link v-else :to="`/item/${item.id}`">
-                            {{ item.title }}
-                        </router-link>
+                        <template v-if="item.domain">
+                            <a :href="item.url">
+                                {{ item.title }}
+                            </a>
+                        </template>
+                        <template v-else>
+                            <!-- 분기 처리는 template 이용 -->
+                            <router-link :to="`/item/${item.id}`">
+                                {{ item.title }}
+                            </router-link>
+                        </template>
                     </p>
                     <small class="link-text">
                         {{ item.time_ago }} by
-                        <router-link
-                            v-if="item.user"
-                            :to="`/user/${item.user}`"
-                            class="link-text"
-                        >
-                            {{ item.user }}
-                        </router-link>
-                        <a v-else :href="item.url" class="link-text">
-                            {{ item.domain }}
-                        </a>
+                        <template v-if="item.user">
+                            <router-link
+                                :to="`/user/${item.user}`"
+                                class="link-text"
+                            >
+                                {{ item.user }}
+                            </router-link>
+                        </template>
+                        <template v-else>
+                            <a :href="item.url" class="link-text">
+                                {{ item.domain }}
+                            </a>
+                        </template>
                         <!-- v-vind 데이터는 꼭 : 표기 해줘야 함. -->
                     </small>
                 </div>
@@ -44,7 +52,7 @@ export default {
 
 
 <style scoped>
-.news-list {
+.list {
     margin: 0;
     padding: 0;
 }
