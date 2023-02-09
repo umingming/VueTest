@@ -38,8 +38,12 @@ export default {
             .catch(error => console.log(error));
     },
     FETCH_LIST({ commit }, pageName) {
-        fetchList(pageName)
-            .then(({ data }) => commit('SET_LIST', data))
+        return fetchList(pageName)
+            .then(response => {
+                commit('SET_LIST', response.data);
+                return response;
+            })
             .catch(error => console.log(error));
+        // return은 순서를 보장함.
     }
 }
