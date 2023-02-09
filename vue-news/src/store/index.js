@@ -12,6 +12,7 @@ export const store = new Vuex.Store({
         ask: [],
         user: {},
         item: {},
+        list: [],
     },
     mutations,
     getters: { //computed와 동일

@@ -20,11 +20,15 @@ function fetchUserInfo(userName) {
 function fetchItemInfo(id) {
     return axios.get(`${config.baseUrl}item/${id}.json`); //리턴이 핵심
 }
+function fetchList(pageName) {
+    return axios.get(`${config.baseUrl}${pageName}/1.json`);
+}
 
 export {
     fetchNewsList,
     fetchAskList,
     fetchJobsList,
     fetchUserInfo,
-    fetchItemInfo
+    fetchItemInfo,
+    fetchList
 }

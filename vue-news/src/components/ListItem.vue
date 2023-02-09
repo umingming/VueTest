@@ -44,8 +44,10 @@
 
 <script>
 export default {
-    props: {
-        items: { type: Array },
+    computed: {
+        items() {
+            return this.$store.state.list;
+        },
     },
 };
 </script>

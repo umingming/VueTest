@@ -1,10 +1,8 @@
 import Vue from 'vue'; //vue를 추가해줘야 사용할 수 있음.
 import VueRouter from 'vue-router';
-import NewsView from '../views/NewsView.vue';
-import AskView from '../views/AskView.vue';
-import JobsView from '../views/JobsView.vue';
 import ItemView from '../views/ItemView.vue';
 import UserView from '../views/UserView.vue';
+import createListView from '../views/CreateListView.js';
 
 Vue.use(VueRouter);
 
@@ -18,17 +16,17 @@ export const router = new VueRouter({  //export해줘야 다른 파일에서 참
         {
             path: '/news', //url 주소
             name: "news",
-            component: NewsView, //url 주소로 갔을 때 표시될 컴포넌트, 페이지 
+            component: createListView('NewsView'), //url 주소로 갔을 때 표시될 컴포넌트, 페이지 
         },
         {
             path: '/ask',
             name: "ask",
-            component: AskView,
+            component: createListView('AskView'),
         },
         {
             path: '/jobs',
             name: "jobs",
-            component: JobsView,
+            component: createListView('JobsView'),
         },
         {
             path: '/item/:id',
