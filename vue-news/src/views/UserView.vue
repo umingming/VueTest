@@ -1,9 +1,9 @@
 <template>
     <div>
         <user-profile :info="userInfo">
-            <template slot="karma">
+            <span slot="karma">
                 {{ userInfo.karma }}
-            </template>
+            </span>
         </user-profile>
     </div>
 </template>

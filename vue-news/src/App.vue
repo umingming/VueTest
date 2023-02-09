@@ -9,16 +9,19 @@
             <router-view></router-view>
         </transition>
         <!-- url 주소에 따라 view가 뿌려짐. -->
+        <spinner-bar :loading="true"></spinner-bar>
     </div>
 </template>
 
 <script>
 import ToolBar from "./components/ToolBar.vue";
+import SpinnerBar from "./components/SpinnerBar.vue";
 
 export default {
     name: "App",
     components: {
         ToolBar,
+        SpinnerBar,
     },
 };
 </script>

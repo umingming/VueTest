@@ -10,11 +10,7 @@
                         {{ info.id }}
                     </slot>
                     <div class="time">
-                        <slot name="time">
-                            {{ info.created }}
-                        </slot>
-                    </div>
-                    <div class="karma">
+                        <slot name="time"> Joined {{ info.created }}, </slot>
                         <slot name="karma"> </slot>
                     </div>
                 </div>
