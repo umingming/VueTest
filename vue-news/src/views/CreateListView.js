@@ -1,6 +1,7 @@
 import ListView from './ListView.vue';
 import bus from '../utils/bus.js';
 
+// 하이오더컴포넌트: AskView, NewsView, JobsView
 export default function createListView(name) {
     return {
         // 재사용할 컴포넌트 옵션
