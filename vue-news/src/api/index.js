@@ -5,8 +5,12 @@ const config = {
     baseUrl: 'https://api.hnpwa.com/v0/' //기본 url 설정
 };
 //2.API 함수들을 정의: API 함수들을 호출할 때 중복을 줄일 수 있음.
-function fetchNewsList() {
-    return axios.get(`${config.baseUrl}news/1.json`); //리턴이 핵심
+async function fetchNewsList() {
+    try {
+        return await axios.get(`${config.baseUrl}news/1.json`); //await 붙은 상태로 리턴해도 됨.
+    } catch (error) {
+        console.log(error);
+    }
 }
 function fetchAskList() {
     return axios.get(`${config.baseUrl}ask/1.json`); //리턴이 핵심
