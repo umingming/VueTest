@@ -7,11 +7,18 @@ export default {
     //         .then(({data}) => context.commit('SET_NEWS', data)) //({}) 사용해 필요한 값만 넣을 수 있음.
     //         .catch(error => console.log(error));
     // },
-    FETCH_NEWS({ commit }) { //context 축약
-        fetchNewsList()
-            .then((response) => {
-                commit('SET_NEWS', response.data); return response;
-            })
+    // FETCH_NEWS({ commit }) { //context 축약
+    //     fetchNewsList()
+    //         .then((response) => {
+    //             commit('SET_NEWS', response.data); return response;
+    //         })
+    // },
+    //async
+    async FETCH_NEWS({ commit }) { //context 축약
+        const response = await fetchNewsList();
+        commit('SET_NEWS', response.data);
+        return response; 
+        // async의 리턴 값은 promise
     },
     FETCH_JOBS(context) {
         fetchJobsList()
@@ -37,13 +44,23 @@ export default {
             .then(({ data }) => commit('SET_ITEM', data))
             .catch(error => console.log(error));
     },
-    FETCH_LIST({ commit }, pageName) {
-        return fetchList(pageName)
-            .then(response => {
-                commit('SET_LIST', response.data);
-                return response;
-            })
-            .catch(error => console.log(error));
-        // return은 순서를 보장함.
+    // FETCH_LIST({ commit }, pageName) {
+    //     return fetchList(pageName)
+    //         .then(response => {
+    //             commit('SET_LIST', response.data);
+    //             return response;
+    //         })
+    //         .catch(error => console.log(error));
+    //     // return은 순서를 보장함.
+    // }
+    async FETCH_LIST({ commit }, pageName) {
+        try {
+            const response = await fetchList(pageName);
+            console.log('fetched');
+            commit('SET_LIST', response.data);
+            return response;
+        } catch (error) {
+            console.log(error);
+        }
     }
 }
