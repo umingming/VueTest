@@ -4,6 +4,7 @@ import Chart from "chart.js";
 export default {
     install(Vue) {
         Vue.prototype.$_Chart = Chart;
+        // $_ : 권고하는 플러그인 접두사
         console.log('chart plugin loaded');
     }
 }
