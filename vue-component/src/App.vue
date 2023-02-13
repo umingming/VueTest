@@ -8,7 +8,11 @@
             >
             </item-component>
         </ul>
-        <check-box :checked="checked"></check-box>
+        <check-box 
+            v-model="checked"
+        >
+        <!-- v-model은 input 이벤트와 value값으로 이뤄짐. -->
+        </check-box>
     </div>
 </template>
 
