@@ -18,7 +18,6 @@
                         :height="paletteheight"
                         :getNodeDefaults="palettegetNodeDefaults"
                         :getSymbolInfo="getSymbolInfo"
-                        :symbolMargin="symbolMargin"
                         :symbolHeight="symbolHeight"
                         :symbolWidth="symbolWidth"
                     ></ejs-symbolpalette>
@@ -175,19 +174,19 @@ let gridlines = {
 
 //Initializes the nodes for the diagram
 let nodes = [
-    // {
-    //     id: "start",
-    //     width: 50,
-    //     height: 40,
-    //     offsetX: 300,
-    //     offsetY: 80,
-    //     shape: { type: "Flow", shape: "Terminator" },
-    //     annotations: [
-    //         {
-    //             content: "Start",
-    //         },
-    //     ],
-    // },
+    {
+        id: "start",
+        width: 50,
+        height: 40,
+        offsetX: 300,
+        offsetY: 80,
+        shape: { type: "Flow", shape: "Terminator" },
+        annotations: [
+            {
+                content: "Start",
+            },
+        ],
+    },
 ];
 //Initializes the connector for the diagram
 let connectors = [];
@@ -198,6 +197,7 @@ let flowshapes = [
         id: "start",
         shape: { type: "Flow", shape: "Terminator" },
         annotations: [{ content: "Start" }],
+        iconCss: 'e-NoneStart'
     },
     {
         id: "end",
@@ -302,6 +302,9 @@ export default Vue.extend({
             },
             //Sets the Node style for DragEnter element.
             dragEnter: (args) => {
+                let diagram = this.$refs.diagramObject.ej2Instances;
+                console.log(diagram);
+
                 let obj = args.element;
                 if (obj && obj.width && obj.height) {
                     let oWidth = obj.width;
