@@ -28,11 +28,37 @@ function fetchList(pageName) {
     return axios.get(`${config.baseUrl}${pageName}/1.json`);
 }
 
+async function callChatGPTAPI(question) {
+    const modelName = 'text-davinci-002';
+    const prompt = `Name: ${question}\nTranslation:`;
+
+    const data = {
+      prompt: prompt,
+      max_tokens: 50,
+      temperature: 0.5,
+    };
+  
+    const response = await axios.post(
+      `https://api.openai.com/v1/engines/${modelName}/completions`,
+      data,
+      {
+        headers: {
+            'Content-Type': 'application/json',
+          Authorization: `Bearer ${process.env.VUE_APP_OPENAI_API_KEY}`,
+        },
+      }
+    );
+  
+    return response.data.choices[0].text;
+  }
+
+
 export {
     fetchNewsList,
     fetchAskList,
     fetchJobsList,
     fetchUserInfo,
     fetchItemInfo,
-    fetchList
+    fetchList,
+    callChatGPTAPI,
 }
