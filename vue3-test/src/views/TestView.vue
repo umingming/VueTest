@@ -1,5 +1,5 @@
 <template>
-	<div>제목: {{ title }}</div>
+	<div data-test="title">제목: {{ title }}</div>
 </template>
 
 <script>
