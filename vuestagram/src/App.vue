@@ -60,7 +60,7 @@ export default {
 		return {
 			posts: posts,
 			index: 0,
-			tabIndex: 4,
+			tabIndex: 1,
 			image: "",
 			content: "",
 			filter: "",
@@ -85,6 +85,7 @@ export default {
 		upload({ target }) {
 			const file = target.files[0];
 			this.image = URL.createObjectURL(file);
+			console.log(this.image);
 			/*
 				blob으로 뜨는데, binary 데이터 담는 것.
 				multiple 이라고 하면 여러개 선택할 수 있음.
