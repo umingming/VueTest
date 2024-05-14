@@ -53,6 +53,7 @@ export default {
 
 		function shuffleQuestionList() {
 			questionList.value.sort(() => Math.random() - Math.random());
+			initAnswer();
 		}
 
 		//============================== Answer
