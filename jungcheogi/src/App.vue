@@ -93,7 +93,7 @@ export default {
 		}
 
 		function validateAnswer(value) {
-			return String(value).replace(/ |,/g, "");
+			return String(value).toUpperCase().replace(/ |,/g, "");
 		}
 
 		return {
