@@ -65,8 +65,9 @@ export default {
 			answerRef.value.focus();
 		}
 
-		function checkAnswer({ target: { value } }) {
-			if (validateAnswer(currentAnswer.value) !== value) {
+		function checkAnswer() {
+			const { value } = answerRef.value;
+			if (validateAnswer(currentAnswer.value) !== validateAnswer(value)) {
 				passAnswer();
 				return;
 			}
