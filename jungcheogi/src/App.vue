@@ -14,7 +14,7 @@
 		</div>
 		<div>
 			<input ref="answerRef" @keyup.enter="checkAnswer" />
-			<button @click="passAnswer">Pass</button>
+			<button @click="checkAnswer">Enter</button>
 		</div>
 	</div>
 </template>
