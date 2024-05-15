@@ -1,26 +1,36 @@
 <template>
-	<div>
-		<button v-for="key in 5" :key="key" @click="changeQuestionList(key)">
+	<div class="subject-group">
+		<button
+			v-for="key in 5"
+			:key="key"
+			:class="{ on: selectedSubject === key }"
+			@click="selectSubject(key)"
+		>
 			{{ key }}
 		</button>
 	</div>
 	<div v-if="currentQuestion">
-		<span>
+		<span id="question-mark">
 			{{ questionMark }}
 			<button @click="shuffleQuestionList">Shuffle</button>
 		</span>
 		<div class="question-box">
 			{{ currentQuestion.QUESTION }}
 		</div>
-		<div>
+		<span id="serial">
+			{{ currentQuestion.ITERATION }},
+			{{ currentQuestion.NO }}
+		</span>
+		<div class="answer-box">
 			<input ref="answerRef" @keyup.enter="checkAnswer" />
 			<button @click="checkAnswer">Enter</button>
 		</div>
 	</div>
+	<div v-else class="success">{{ selectedSubject }} 과목 완료!🎉</div>
 </template>
 
 <script>
-import { computed, nextTick, ref } from "vue";
+import { computed, nextTick, onMounted, ref } from "vue";
 
 import { QUESTIONS } from "./plugin/constants";
 
@@ -28,6 +38,16 @@ export default {
 	name: "App",
 	components: {},
 	setup() {
+		//============================== Subject
+		const selectedSubject = ref(0);
+
+		function selectSubject(key) {
+			selectedSubject.value = key;
+			changeQuestionList();
+		}
+
+		onMounted(() => selectSubject(1));
+
 		//============================== Question
 		const questionList = ref([]);
 		const currentQuestion = computed(() =>
@@ -41,9 +61,9 @@ export default {
 			return `${index}/${total}`;
 		});
 
-		function changeQuestionList(key) {
+		function changeQuestionList() {
 			questionList.value = QUESTIONS.filter(
-				({ SUBJECT }) => SUBJECT === key,
+				({ SUBJECT }) => SUBJECT === selectedSubject.value,
 			);
 
 			if (currentQuestion.value) {
@@ -99,6 +119,10 @@ export default {
 		}
 
 		return {
+			// Subject
+			selectedSubject,
+			selectSubject,
+
 			// Question
 			currentQuestion,
 			questionMark,
@@ -124,5 +148,33 @@ export default {
 	color: #2c3e50;
 	margin-top: 60px;
 	white-space: break-spaces;
+	line-height: 25px;
+}
+.subject-group button {
+	width: 50px;
+	margin: 10px;
+}
+.subject-group button.on {
+	font-weight: bold;
+}
+#question-mark {
+	display: block;
+	text-align: right;
+	margin: 0px 100px 10px;
+}
+#serial {
+	display: block;
+	text-align: right;
+	margin: 0px 100px;
+}
+.answer-box {
+	margin-top: 20px;
+}
+.answer-box input {
+	margin-right: 10px;
+}
+.success {
+	margin-top: 10px;
+	font-weight: bold;
 }
 </style>

@@ -1,8 +1,9 @@
 export const QUESTIONS = [
+	//============================== 1 과목
 	{
 		ANSWER: 2,
 		QUESTION:
-			"UML 모델에서 한 사물의 명세가 바뀌면 다른 사물에 영향을 주며, \r\n일반적으로 한 클래스가 다른 클래스를 오퍼레이션의 매개변수로 사용하는 경우에 나타나는 관계는?\r\n1)Association 2)Dependency 3)Realization 4)Generalization\r\n",
+			"UML 모델에서 한 사물의 명세가 바뀌면 다른 사물에 영향을 주며, \r\n일반적으로 한 클래스가 다른 클래스를 오퍼레이션의 매개변수로 사용하는 경우에 나타나는 관계는?\r\n1)Association\r\n2)Dependency\r\n3)Realization\r\n4)Generalization\r\n",
 		ITERATION: 202108,
 		NO: 2,
 		IS_CORRECT: false,
@@ -768,6 +769,8 @@ export const QUESTIONS = [
 		IS_CORRECT: false,
 		SUBJECT: 1,
 	},
+
+	//============================== 2 과목
 	{
 		ANSWER: 1,
 		QUESTION: `스택을 이용한 연산과 거리가 먼 것은?\r\n1)선택 정렬 2)재귀 호출 3)후위 표현의 연산 4)깊이 우선 탐색\r\n`,
@@ -1304,6 +1307,8 @@ export const QUESTIONS = [
 		IS_CORRECT: false,
 		SUBJECT: 2,
 	},
+
+	//============================== 3 과목
 	{
 		ANSWER: "OOOX",
 		QUESTION: `<물리적 데이터 베이스 설계>\r\n- 물리적 설계의 목적은 효율적인 방법으로 데이터를 저장하는 것 (O/X)\r\n- 트랜잭션 처리량과 응답 시간, 디스크 용량 등을 고려 (O/X)\r\n- 저장 레코드의 형식, 순서, 접근 경로와 같은 정보를 사용하여 설계 (O/X)\r\n- 트랜잭션의 인터페이스를 설계하며, 데이터 타입 및 데이터 타입들 간의 관계로 표현 (O/X)\r\n`,
@@ -1330,7 +1335,7 @@ export const QUESTIONS = [
 	},
 	{
 		ANSWER: "병행, 있다, 병행, 오버헤드",
-		QUESTION: `<로킹 단위>                                                      정답 기입 예시) 유미, 있다, 개발, 이클립스\r\n- ㅇㅇ제어에서 한꺼번에 로킹할 수 있는 객체의 크기\r\n- 데이터베이스, 파일, 레코드, 필드 등은 로킹 단위가 될 수 (있다/없다).\r\n- 로킹 단위가 크면 로크 수가 작아 관리하기 쉽지만 ㅇㅇ성 수준이 낮아지고 데이터베이스 공유도가 저하됨.\r\n- 로킹 단위가 작으면 로크 수가 많아 관리하기 복잡해 ㅇㅇㅇㅇ가 증가함.\r\n`,
+		QUESTION: `<로킹 단위>\r\n정답 기입 예시) 유미, 있다, 개발, 이클립스\r\n- ㅇㅇ제어에서 한꺼번에 로킹할 수 있는 객체의 크기\r\n- 데이터베이스, 파일, 레코드, 필드 등은 로킹 단위가 될 수 (있다/없다).\r\n- 로킹 단위가 크면 로크 수가 작아 관리하기 쉽지만 ㅇㅇ성 수준이 낮아지고 데이터베이스 공유도가 저하됨.\r\n- 로킹 단위가 작으면 로크 수가 많아 관리하기 복잡해 ㅇㅇㅇㅇ가 증가함.\r\n`,
 		ITERATION: 202108,
 		NO: 51,
 		IS_CORRECT: false,
@@ -1338,7 +1343,8 @@ export const QUESTIONS = [
 	},
 	{
 		ANSWER: "비절차, 릴레이션, 순서",
-		QUESTION: `<관계 대수>                                                          정답 기입 예시) 비절차, 고구마켓, 감자\r\n- 원하는 릴레이션을 정의하는 방법을 제공하며 (비절차/절차)적 언어\r\n- 릴레이션 조작을 위한 연산의 집합으로 피연산자와 결과가 모두 ㅇㅇㅇㅇ임.\r\n- 일반 집합 연산과 순수 관계 연산으로 구분됨.\r\n- 질의에 대한 해를 구하기 위해 수행해야 할 연산의 ㅇㅇ를 명시\r\n`,
+		QUESTION:
+			"<관계 대수>\r\n정답 기입 예시) 비절차, 고구마켓, 감자\r\n- 원하는 릴레이션을 정의하는 방법을 제공하며 (비절차/절차)적 언어\r\n- 릴레이션 조작을 위한 연산의 집합으로 피연산자와 결과가 모두 ㅇㅇㅇㅇ임.\r\n- 일반 집합 연산과 순수 관계 연산으로 구분됨.\r\n- 질의에 대한 해를 구하기 위해 수행해야 할 연산의 ㅇㅇ를 명시\r\n",
 		ITERATION: 202108,
 		NO: 52,
 		IS_CORRECT: false,
@@ -1362,7 +1368,7 @@ export const QUESTIONS = [
 	},
 	{
 		ANSWER: 2,
-		QUESTION: `어떤 릴레이션 R에서 X와 Y를 각각 R의 애트리뷰트 집합의 부분 집합이라고 할 경우 애트리뷰트 X의 값 각각에 대해 시간에 관계 없이 항상 애트리뷰트 Y의 값이 오직 하나만 연관되어 있을 때 Y는 X에 함수 종속이라고 함. 이 함수 종속의 표기로 옳은 것은?\r\n1)Y → X    2)X → Y    3)Y ⊂ X    4)X ⊂ Y\r\n`,
+		QUESTION: `어떤 릴레이션 R에서 X와 Y를 각각 R의 애트리뷰트 집합의 부분 집합이라고 할 경우 애트리뷰트 X의 값 각각에 대해 시간에 관계 없이\r\n항상 애트리뷰트 Y의 값이 오직 하나만 연관되어 있을 때, Y는 X에 함수 종속이라고 함.\r\n이 함수 종속의 표기로 옳은 것은?\r\n1)Y → X\r\n2)X → Y\r\n3)Y ⊂ X\r\n4)X ⊂ Y\r\n`,
 		ITERATION: 202108,
 		NO: 60,
 		IS_CORRECT: false,
@@ -1418,7 +1424,7 @@ export const QUESTIONS = [
 	},
 	{
 		ANSWER: "10, 35",
-		QUESTION: `릴레이션 R의 차수가 4이고 카디널리티가 5이며, 릴레이션 S의 차수가 6이고 카디널리티가 7일 때, 두 개의 릴레이션을 카티션 프로덕트한 결과의 새로운 릴레이션의 차수와 카디널리티는 얼마인가?                                정답 기입 예시) 45, 67\r\n-> 차수: ㅇㅇ, 카디널리티: ㅇㅇ\r\n`,
+		QUESTION: `릴레이션 R의 차수가 4이고 카디널리티가 5이며,\r\n릴레이션 S의 차수가 6이고 카디널리티가 7일 때,\r\n두 개의 릴레이션을 카티션 프로덕트한 결과의 새로운 릴레이션의 차수와 카디널리티는 얼마인가?\r\n정답 기입 예시) 45, 67\r\n-> 차수: ㅇㅇ, 카디널리티: ㅇㅇ\r\n`,
 		ITERATION: 202105,
 		NO: 53,
 		IS_CORRECT: false,
@@ -1490,7 +1496,7 @@ export const QUESTIONS = [
 	},
 	{
 		ANSWER: "인덱스",
-		QUESTION: `ㅇㅇㅇ; 데이터베이스 성능에 많은 영향을 주는 DBMS 구성 요소로 테이블과 클리스터에 연관되어 독립적인 저장 공간을 보유하며, 데이터베이스에 저장된 자료를 더욱 빠르게 조회하기 위해서 사용되는 것\r\n`,
+		QUESTION: `ㅇㅇㅇ: 데이터베이스 성능에 많은 영향을 주는 DBMS 구성 요소로\r\n 테이블과 클리스터에 연관되어 독립적인 저장 공간을 보유하며,\r\n데이터베이스에 저장된 자료를 더욱 빠르게 조회하기 위해서 사용되는 것\r\n`,
 		ITERATION: 202103,
 		NO: 56,
 		IS_CORRECT: false,
@@ -1530,7 +1536,7 @@ export const QUESTIONS = [
 	},
 	{
 		ANSWER: 1,
-		QUESTION: `데이터웨어하우스의 기본적인 OLAP(on-line analytical processing) 연산이 아닌 것은?\r\n1)translate    2)roll-up    3)dicing    4)drill-down\r\n`,
+		QUESTION: `데이터웨어하우스의 기본적인 OLAP(on-line analytical processing) 연산이 아닌 것은?\r\n1)translate\r\n2)roll-up\r\n3)dicing\r\n4)drill-down\r\n`,
 		ITERATION: 202009,
 		NO: 60,
 		IS_CORRECT: false,
@@ -1594,12 +1600,14 @@ export const QUESTIONS = [
 	},
 	{
 		ANSWER: 4,
-		QUESTION: `트랜잭션의 연산은 데이터베이스에 모두 반영되든지 아니면 전혀 반영되지 않아야 한다는 트랜잭션 특성은?\r\n1)Durability    2)Share    3)Consistency    3)Atomicity\r\n`,
+		QUESTION: `트랜잭션의 연산은 데이터베이스에 모두 반영되든지\r\n아니면 전혀 반영되지 않아야 한다는 트랜잭션 특성은?\r\n1)Durability\r\n2)Share\r\n3)Consistency\r\n4)Atomicity\r\n`,
 		ITERATION: 202006,
 		NO: 24,
 		IS_CORRECT: false,
 		SUBJECT: 3,
 	},
+
+	//============================== 4과목
 	{
 		ANSWER: "내부, 입력, 동일, 순차, 시간, 유사, 없는",
 		QUESTION: `<응집도의 종류(약함에서 강함 순)>\r\n- 기능적 응집도(Functional Cohesion); 모듈 ㅇㅇ의 모든 기능 요소들이 단일 문제와 연관되어 수행될 경우 응집도\r\n- 순차적 응집도(Sequential Cohesion); 모듈 내 하나의 활동으로부터 나온 출력 데이터를 그 다음 활동의 ㅇㅇ 데이터로 사용할 경우의 응집도\r\n- 교환적 응집도(Communication Cohesion); ㅇㅇ한 입력과 출력을 사용하여 서로 다른 기능을 수행하거는 구성 요소들이 모였을 경우의 응집도 \r\n- 절차적 응집도(Procedural Cohesion); 모듈이 다수의 관련 기능을 가질 때 모듈 안의 구성 요소들이 그 기능을 ㅇㅇ적으로 수행할 경우의 응집도\r\n- 시간적 응집도(Temporal Cohesion); 특정 ㅇㅇ에 처리되는 몇 개의 기능을 모아 하나의 모듈로 작성할 경우의 응집도\r\n- 논리적 응집도(Logical Cohesion); ㅇㅇ한 성격을 갖거나 특정 형태로 분류되는 처리 요소들로 하나의 모듈이 형성되는 경우의 응집도\r\n- 우연적 응집도(Coincidental Cohesion); 모듈 내부의 각 구성 요소들이 서로 관련 ㅇㅇ 요소로만 구성된 경우의 응집도\r\n`,
@@ -2242,6 +2250,8 @@ export const QUESTIONS = [
 		IS_CORRECT: false,
 		SUBJECT: 4,
 	},
+
+	//============================== 5과목
 	{
 		ANSWER: "오용, 이상, 사용자",
 		QUESTION: `<침입 탐지 시스템(IDS: Intrusion Detection System)>\r\n- 외부 인터넷에 서비스를 제공하는 서버가 위치하는 네트워크인 DMZ(Demilitarized Zone)에는 IDS가 설치될 수 있음.\r\n- ㅇㅇ 탐지 기법(Misuse Detection): Signature Base나 Knowledge Base라 불리며 이미 발견되고 정립된 공격 패턴을 입력해두었다가 탐지 및 차단함.\r\n- ㅇㅇ 탐지 기법(Anomaly Detection): Behavior, Statistical Detection로 불리며 평균적인 시스템의 상태를 기준으로 비정상적인 행위나 자원 사용이 감지되면 이를 알려줌.\r\n- HIDS(Host-Based Intrusion Detection)는 운영 체제에 설정된 사용자 계정에 따라 어떤 ㅇㅇㅇ가 어떤 접근을 시도하고 어떤 작업을 했는지에 대한 기록을 남기고 추적함.\r\n- NIDS(Network-Based Intrusion Detection System)로는 대표적으로 Snort가 있음.\r\n`,
