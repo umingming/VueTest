@@ -1937,7 +1937,8 @@ export const QUESTIONS = [
 		SUBJECT: 4,
 	},
 	{
-		QUESTION: `C언어에서 변수 선언으로 틀린 것은?\r\n1.int else:    2.int Test2:    3.int pc:    4.int True;\r\n`,
+		ANSWER: 1,
+		QUESTION: `C언어에서 변수 선언으로 틀린 것은?\r\n1.int else;    2.int Test2;    3.int pc;    4.int True;\r\n`,
 		ITERATION: 202108,
 		NO: 79,
 		IS_CORRECT: false,
