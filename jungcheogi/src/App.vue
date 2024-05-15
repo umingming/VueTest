@@ -9,7 +9,10 @@
 			{{ key }}
 		</button>
 	</div>
-	<div v-if="currentQuestion">
+	<div
+		v-if="currentQuestion"
+		:class="{ correct: currentQuestion.IS_CORRECT }"
+	>
 		<span id="question-mark">
 			{{ questionMark }}
 			<button @click="shuffleQuestionList">Shuffle</button>
@@ -23,7 +26,15 @@
 		</span>
 		<div class="answer-box">
 			<input ref="answerRef" @keyup.enter="checkAnswer" />
-			<button @click="checkAnswer">Enter</button>
+			<button v-if="!isAnswerEntered" @click="checkAnswer">Enter</button>
+			<button v-else @click="passAnswer">Next</button>
+		</div>
+		<div class="info-box" v-if="isAnswerEntered">
+			<div v-if="currentQuestion.IS_CORRECT">맞았다! 잘했다!</div>
+			<div v-else>틀렸다.</div>
+			<div>
+				정답: <span>{{ currentQuestion.ANSWER }}</span>
+			</div>
 		</div>
 	</div>
 	<div v-else class="success">{{ selectedSubject }} 과목 완료!🎉</div>
@@ -51,7 +62,7 @@ export default {
 		//============================== Question
 		const questionList = ref([]);
 		const currentQuestion = computed(() =>
-			questionList.value.find(question => !question.IS_CORRECT),
+			questionList.value.find(question => !question.IS_ENTERED),
 		);
 		const questionMark = computed(() => {
 			const { length: total } = questionList.value;
@@ -79,38 +90,36 @@ export default {
 		//============================== Answer
 		const answerRef = ref(null);
 		const currentAnswer = computed(() => currentQuestion.value.ANSWER);
+		const isAnswerEntered = ref(false);
 
 		function initAnswer() {
 			answerRef.value.value = "";
 			answerRef.value.focus();
+			isAnswerEntered.value = false;
 		}
 
 		function checkAnswer() {
-			const { value } = answerRef.value;
-			if (validateAnswer(currentAnswer.value) !== validateAnswer(value)) {
+			if (isAnswerEntered.value) {
 				passAnswer();
 				return;
 			}
+			const { value } = answerRef.value;
+			currentQuestion.value.IS_CORRECT =
+				validateAnswer(currentAnswer.value) === validateAnswer(value);
 
-			alert(
-				`잘했다 정답이다!\r\n\r\n${currentQuestion.value.QUESTION} \r\n정답: ${currentAnswer.value}`,
-			);
-			currentQuestion.value.IS_CORRECT = true;
-
-			initAnswer();
+			isAnswerEntered.value = true;
 		}
 
 		function passAnswer() {
-			alert(
-				`ㅠㅠ\r\n\r\n${currentQuestion.value.QUESTION} \r\n정답: ${currentAnswer.value}`,
-			);
-
-			const index = questionList.value.findIndex(
-				question => question === currentQuestion.value,
-			);
-			const [question] = questionList.value.splice(index, 1);
-			questionList.value.push(question);
-
+			if (currentQuestion.value.IS_CORRECT) {
+				currentQuestion.value.IS_ENTERED = true;
+			} else {
+				const index = questionList.value.findIndex(
+					question => question === currentQuestion.value,
+				);
+				const [question] = questionList.value.splice(index, 1);
+				questionList.value.push(question);
+			}
 			initAnswer();
 		}
 
@@ -131,6 +140,7 @@ export default {
 
 			// Answer
 			answerRef,
+			isAnswerEntered,
 			checkAnswer,
 			validateAnswer,
 			passAnswer,
@@ -160,15 +170,12 @@ export default {
 #question-mark {
 	display: block;
 	text-align: right;
-	margin: 0px 100px 10px;
+	margin: 0px 30px 10px;
 }
 #serial {
 	display: block;
 	text-align: right;
-	margin: 0px 100px;
-}
-.answer-box {
-	margin-top: 20px;
+	margin: 0px 30px;
 }
 .answer-box input {
 	margin-right: 10px;
@@ -176,5 +183,15 @@ export default {
 .success {
 	margin-top: 10px;
 	font-weight: bold;
+}
+.info-box {
+	margin-top: 10px;
+	color: red;
+}
+.info-box span {
+	font-weight: 600;
+}
+.correct .info-box {
+	color: blue;
 }
 </style>

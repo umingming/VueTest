@@ -7,6 +7,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 2,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -15,6 +16,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 3,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -23,6 +25,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 12,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -31,6 +34,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 9,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -39,6 +43,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 5,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -47,6 +52,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 18,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -55,6 +61,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 8,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -63,6 +70,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 6,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -71,6 +79,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 10,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -79,6 +88,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 19,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -87,6 +97,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 6,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -95,6 +106,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 15,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -103,6 +115,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 12,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -111,6 +124,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 6,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -119,6 +133,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 7,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -127,6 +142,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 4,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -135,6 +151,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 9,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -143,6 +160,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 10,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -151,6 +169,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 18,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -159,6 +178,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 15,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -167,6 +187,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 13,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -175,6 +196,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 17,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -183,6 +205,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 9,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -191,6 +214,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 9,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -199,6 +223,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 11,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -207,6 +232,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 10,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -215,6 +241,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 4,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -223,6 +250,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 8,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -231,6 +259,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 15,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -239,6 +268,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 1,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -247,6 +277,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 2,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -255,6 +286,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 16,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -263,6 +295,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 4,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -271,6 +304,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 9,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -279,6 +313,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 17,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -287,6 +322,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 18,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -295,6 +331,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 19,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -303,6 +340,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 5,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -311,6 +349,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 12,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -319,6 +358,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 14,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -327,6 +367,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 13,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -335,6 +376,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 16,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -343,6 +385,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 14,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -351,6 +394,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 5,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -359,6 +403,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 11,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -367,6 +412,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 16,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -375,6 +421,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 8,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -383,6 +430,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 1,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -391,6 +439,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 16,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -399,6 +448,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 3,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -407,6 +457,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 6,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -415,6 +466,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 10,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -423,6 +475,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 5,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -431,6 +484,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 18,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -439,6 +493,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 18,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -447,6 +502,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 5,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -455,6 +511,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 11,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -463,6 +520,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 12,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -471,6 +529,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 5,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -479,6 +538,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 7,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -487,6 +547,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 14,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -495,6 +556,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 16,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -503,6 +565,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 17,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -511,6 +574,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 17,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -519,6 +583,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 1,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -527,6 +592,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 13,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -535,6 +601,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 6,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -543,6 +610,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 17,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -551,6 +619,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 1,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -559,6 +628,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 10,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -567,6 +637,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 19,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -575,6 +646,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 19,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -583,6 +655,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 7,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -591,6 +664,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 3,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -599,6 +673,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 7,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -607,6 +682,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 3,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -615,6 +691,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 14,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -623,6 +700,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 20,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -631,6 +709,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 19,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -639,6 +718,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 1,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -647,6 +727,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 2,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -655,6 +736,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 13,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -663,6 +745,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 12,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -671,6 +754,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 20,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -679,6 +763,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 9,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -687,6 +772,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 8,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -695,6 +781,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 11,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -703,6 +790,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 2,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -711,6 +799,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 14,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -719,14 +808,16 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 13,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
 		ANSWER: "인스턴스, 방문자, 옵저버, 브리지",
-		QUESTION: `<디자인 패턴>                                  정답 기입 예시) 개발환경, 이유미, 개발자, 메소드        \r\n- 팩토리 메소드 패턴; 객체를 생성하기 위한 인터페이스를 정의하여 어떤 클래스가 ㅇㅇㅇㅇ화 될 것인지는 서브클래스가 결정\r\n- ㅇㅇㅇ 패턴; 각 클래스들의 데이터 구조에서 처리 기능을 분리하여 별도의 클래스로 구성\r\n- ㅇㅇㅇ 패턴; 한 객체의 상태가 변화하면 객체에 상속되어 있는 다른 객체들에게 변화된 상태를 전달하는 패턴\r\n- ㅇㅇㅇ 패턴; 구현부에서 추상층을 분리하여, 서로가 독립적으로 확장할 수 있도록 구성한 패턴\r\n`,
+		QUESTION: `<디자인 패턴>                                  정답 기입 예시) 개발환경, 이짱구, 개발자, 메소드        \r\n- 팩토리 메소드 패턴; 객체를 생성하기 위한 인터페이스를 정의하여 어떤 클래스가 ㅇㅇㅇㅇ화 될 것인지는 서브클래스가 결정\r\n- ㅇㅇㅇ 패턴; 각 클래스들의 데이터 구조에서 처리 기능을 분리하여 별도의 클래스로 구성\r\n- ㅇㅇㅇ 패턴; 한 객체의 상태가 변화하면 객체에 상속되어 있는 다른 객체들에게 변화된 상태를 전달하는 패턴\r\n- ㅇㅇㅇ 패턴; 구현부에서 추상층을 분리하여, 서로가 독립적으로 확장할 수 있도록 구성한 패턴\r\n`,
 		ITERATION: 202008,
 		NO: 2,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -735,6 +826,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 14,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -743,6 +835,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 16,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -751,6 +844,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 6,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -759,6 +853,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 20,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 	{
@@ -767,6 +862,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 18,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 1,
 	},
 
@@ -777,6 +873,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 40,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -785,6 +882,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 23,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -793,6 +891,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 32,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -801,6 +900,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 24,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -809,6 +909,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 40,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -817,6 +918,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 37,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -825,6 +927,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 35,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -833,6 +936,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 21,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -841,6 +945,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 31,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -849,6 +954,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 40,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -857,6 +963,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 32,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -865,6 +972,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 31,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -873,6 +981,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 35,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -881,6 +990,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 22,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -889,14 +999,16 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 25,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
 		ANSWER: "경계, 없음",
-		QUESTION: `<경계값 분석 기법> 정답 기입 예시) 유미, 있음\r\n- ㅇㅇ가 되는 값을 테스트 케이스의 입력 값으로 사용\r\n- 범위를 초과하는 값은 넣을 수 (있음/없음).\r\n`,
+		QUESTION: `<경계값 분석 기법> 정답 기입 예시) 짱구, 있음\r\n- ㅇㅇ가 되는 값을 테스트 케이스의 입력 값으로 사용\r\n- 범위를 초과하는 값은 넣을 수 (있음/없음).\r\n`,
 		ITERATION: 202006,
 		NO: 28,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -905,6 +1017,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 36,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -913,6 +1026,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 26,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -921,6 +1035,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 29,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -929,6 +1044,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 40,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -937,6 +1053,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 22,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -945,6 +1062,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 34,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -953,6 +1071,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 37,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -961,6 +1080,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 24,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -969,6 +1089,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 27,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -977,6 +1098,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 37,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -985,6 +1107,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 28,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -993,6 +1116,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 39,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1001,6 +1125,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 34,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1009,6 +1134,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 22,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1017,6 +1143,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 35,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1025,6 +1152,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 29,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1033,14 +1161,16 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 27,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
 		ANSWER: "암호, 키, 파일, 식별, 저작권, 정책, 크랙, 인증",
-		QUESTION: `<빌드 자동화 도구> 정답 기입 예시) 유미, Gradle, Gradle\r\n- 빌드 자동화 도구는 지속적인 ㅇㅇ 개발 환경에서 유용하게 활용됨.\r\n- (Gradle/Jenkins)는 실행할 처리 명령들을 모아 태스크로 만든 후 태스크 단위로 실행함.\r\n- (Gradle/Jenkins)는 Groovy 기반으로 한 오픈소스로 안드로이드 앱 개발 환경에서 사용됨.\r\n`,
+		QUESTION: `<빌드 자동화 도구> 정답 기입 예시) 짱구, Gradle, Gradle\r\n- 빌드 자동화 도구는 지속적인 ㅇㅇ 개발 환경에서 유용하게 활용됨.\r\n- (Gradle/Jenkins)는 실행할 처리 명령들을 모아 태스크로 만든 후 태스크 단위로 실행함.\r\n- (Gradle/Jenkins)는 Groovy 기반으로 한 오픈소스로 안드로이드 앱 개발 환경에서 사용됨.\r\n`,
 		ITERATION: 202009,
 		NO: 35,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1049,6 +1179,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 24,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1057,6 +1188,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 29,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1065,6 +1197,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 23,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1073,6 +1206,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 22,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1081,6 +1215,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 21,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1089,6 +1224,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 30,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1097,6 +1233,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 33,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1105,6 +1242,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 38,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1113,6 +1251,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 25,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1121,14 +1260,16 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 27,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
 		ANSWER: "결함, 검증, 확인, 검증, 확인, 검증",
-		QUESTION: `<소프트웨어 테스트에서 검증과 확인> 정답 기입 예시) 유미, 검증, 검증, 검증, 검증, 검증\r\n- 소프트웨어 테스트에서 검증과 확인을 구별하면 찾고자 하는 ㅇㅇ 유형을 명확하게 하는 데 도움이 됨.\r\n- (검증/확인)은 소프트웨어 개발 과정을 테스트하는 것이고, (검증/확인)은 소프트웨어 결과를 테스트하는 것\r\n- (검증/확인)은 작업 제품이 요구 명세의 기능, 비기능 요구사항을 얼마나 잘 준수하는지 측정하는 것\r\n- (검증/확인)은 작업 제품이 사용자의 요구에 적합한지 측정하며, (검증/확인)은 작업 제품이 개발자의 기대를 충족시키는지를 측정함.\r\n`,
+		QUESTION: `<소프트웨어 테스트에서 검증과 확인> 정답 기입 예시) 짱구, 검증, 검증, 검증, 검증, 검증\r\n- 소프트웨어 테스트에서 검증과 확인을 구별하면 찾고자 하는 ㅇㅇ 유형을 명확하게 하는 데 도움이 됨.\r\n- (검증/확인)은 소프트웨어 개발 과정을 테스트하는 것이고, (검증/확인)은 소프트웨어 결과를 테스트하는 것\r\n- (검증/확인)은 작업 제품이 요구 명세의 기능, 비기능 요구사항을 얼마나 잘 준수하는지 측정하는 것\r\n- (검증/확인)은 작업 제품이 사용자의 요구에 적합한지 측정하며, (검증/확인)은 작업 제품이 개발자의 기대를 충족시키는지를 측정함.\r\n`,
 		ITERATION: 202108,
 		NO: 30,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1137,6 +1278,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 23,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1145,6 +1287,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 30,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1153,6 +1296,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 33,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1161,6 +1305,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 23,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1169,6 +1314,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 40,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1177,6 +1323,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 35,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1185,6 +1332,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 21,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1193,6 +1341,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 33,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1201,6 +1350,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 23,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1209,6 +1359,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 25,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1217,6 +1368,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 39,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1225,6 +1377,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 25,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1233,6 +1386,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 34,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1241,6 +1395,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 27,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1249,6 +1404,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 30,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1257,6 +1413,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 29,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1265,6 +1422,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 27,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1273,6 +1431,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 35,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1281,6 +1440,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 22,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1289,6 +1449,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 31,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1297,6 +1458,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 32,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 	{
@@ -1305,6 +1467,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 39,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 2,
 	},
 
@@ -1315,6 +1478,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 44,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1323,6 +1487,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 45,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1331,14 +1496,16 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 47,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
 		ANSWER: "병행, 있다, 병행, 오버헤드",
-		QUESTION: `<로킹 단위>\r\n정답 기입 예시) 유미, 있다, 개발, 이클립스\r\n- ㅇㅇ제어에서 한꺼번에 로킹할 수 있는 객체의 크기\r\n- 데이터베이스, 파일, 레코드, 필드 등은 로킹 단위가 될 수 (있다/없다).\r\n- 로킹 단위가 크면 로크 수가 작아 관리하기 쉽지만 ㅇㅇ성 수준이 낮아지고 데이터베이스 공유도가 저하됨.\r\n- 로킹 단위가 작으면 로크 수가 많아 관리하기 복잡해 ㅇㅇㅇㅇ가 증가함.\r\n`,
+		QUESTION: `<로킹 단위>\r\n정답 기입 예시) 짱구, 있다, 개발, 이클립스\r\n- ㅇㅇ제어에서 한꺼번에 로킹할 수 있는 객체의 크기\r\n- 데이터베이스, 파일, 레코드, 필드 등은 로킹 단위가 될 수 (있다/없다).\r\n- 로킹 단위가 크면 로크 수가 작아 관리하기 쉽지만 ㅇㅇ성 수준이 낮아지고 데이터베이스 공유도가 저하됨.\r\n- 로킹 단위가 작으면 로크 수가 많아 관리하기 복잡해 ㅇㅇㅇㅇ가 증가함.\r\n`,
 		ITERATION: 202108,
 		NO: 51,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1348,6 +1515,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 52,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1356,6 +1524,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 58,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1364,6 +1533,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 59,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1372,6 +1542,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 60,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1380,6 +1551,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 41,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1388,6 +1560,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 42,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1396,6 +1569,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 45,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1404,6 +1578,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 46,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1412,6 +1587,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 47,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1420,6 +1596,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 48,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1428,6 +1605,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 53,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1436,6 +1614,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 54,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1444,6 +1623,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 56,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1452,6 +1632,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 57,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1460,6 +1641,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 42,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1468,6 +1650,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 46,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1476,6 +1659,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 51,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1484,6 +1668,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 53,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1492,6 +1677,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 54,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1500,6 +1686,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 56,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1508,6 +1695,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 58,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1516,6 +1704,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 41,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1524,6 +1713,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 48,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1532,6 +1722,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 54,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1540,6 +1731,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 60,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1548,6 +1740,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 43,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1556,6 +1749,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 49,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1564,6 +1758,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 50,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1572,6 +1767,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 52,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1580,6 +1776,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 54,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1588,6 +1785,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 46,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1596,6 +1794,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 46,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 	{
@@ -1604,6 +1803,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 24,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 3,
 	},
 
@@ -1614,6 +1814,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 61,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1622,6 +1823,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 62,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1631,6 +1833,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 64,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1639,6 +1842,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 66,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1647,6 +1851,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 68,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1655,6 +1860,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 69,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1663,6 +1869,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 70,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1672,6 +1879,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 71,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1680,6 +1888,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 72,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1688,6 +1897,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 74,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1696,6 +1906,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 75,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1704,6 +1915,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 76,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1712,6 +1924,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 77,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1720,6 +1933,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 78,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1727,6 +1941,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 79,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1735,6 +1950,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 80,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1743,6 +1959,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 61,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1751,6 +1968,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 62,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1760,6 +1978,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 63,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1768,6 +1987,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 65,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1776,6 +1996,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 66,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1784,6 +2005,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 68,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1792,6 +2014,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 69,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1800,6 +2023,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 71,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1808,6 +2032,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 74,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1816,6 +2041,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 75,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1824,6 +2050,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 76,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1832,6 +2059,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 78,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1840,6 +2068,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 80,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1848,6 +2077,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 61,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1856,6 +2086,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 62,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1864,6 +2095,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 64,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1872,6 +2104,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 65,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1880,6 +2113,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 66,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1888,6 +2122,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 67,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1896,6 +2131,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 68,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1904,6 +2140,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 71,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1912,6 +2149,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 72,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1920,6 +2158,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 73,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1928,6 +2167,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 74,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1936,14 +2176,16 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 76,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
 		ANSWER: "비연결, 빠름, 오버헤드",
-		QUESTION: `<UDP>                                                            정답 기입 예시; 이유미, 빠름, 이클립스\r\n- 데이터 전송 전에 연결을 설정하지 않는 ㅇㅇㅇ형 서비스 제공\r\n- 흐름제어나 순서제어가 없어 전송 속도가 (빠름/느림).\r\n- TCP에 비해 상대적으로 단순한 헤더 구조를 가지므로, ㅇㅇㅇㅇ가 적음.\r\n`,
+		QUESTION: `<UDP>                                                            정답 기입 예시; 이짱구, 빠름, 이클립스\r\n- 데이터 전송 전에 연결을 설정하지 않는 ㅇㅇㅇ형 서비스 제공\r\n- 흐름제어나 순서제어가 없어 전송 속도가 (빠름/느림).\r\n- TCP에 비해 상대적으로 단순한 헤더 구조를 가지므로, ㅇㅇㅇㅇ가 적음.\r\n`,
 		ITERATION: 202103,
 		NO: 77,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1952,6 +2194,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 78,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1960,6 +2203,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 61,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1968,6 +2212,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 64,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1976,6 +2221,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 66,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1984,6 +2230,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 68,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -1992,6 +2239,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 69,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2000,6 +2248,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 70,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2008,6 +2257,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 71,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2016,6 +2266,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 72,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2024,6 +2275,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 73,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2032,6 +2284,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 74,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2040,6 +2293,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 77,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2048,6 +2302,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 78,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2056,6 +2311,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 73,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2064,6 +2320,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 74,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2072,6 +2329,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 62,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2080,6 +2338,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 63,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2088,6 +2347,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 64,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2096,6 +2356,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 66,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2104,6 +2365,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 68,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2112,6 +2374,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 69,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2120,6 +2383,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 70,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2128,6 +2392,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 73,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2136,6 +2401,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 74,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2144,6 +2410,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 76,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2152,6 +2419,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 77,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2160,6 +2428,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 79,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2168,6 +2437,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 62,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2176,6 +2446,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 65,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2184,6 +2455,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 66,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2192,6 +2464,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 68,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2200,6 +2473,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 71,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2208,6 +2482,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 72,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2216,6 +2491,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 74,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2224,6 +2500,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 75,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2232,6 +2509,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 76,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2240,6 +2518,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 77,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 	{
@@ -2248,6 +2527,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 79,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 4,
 	},
 
@@ -2258,6 +2538,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 81,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2266,6 +2547,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 82,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2274,6 +2556,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 85,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2282,6 +2565,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 87,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2290,6 +2574,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 88,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2298,6 +2583,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 90,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2306,6 +2592,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 93,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2314,6 +2601,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 94,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2322,6 +2610,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 96,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2330,6 +2619,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 97,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2338,6 +2628,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 98,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2346,6 +2637,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 99,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2354,6 +2646,7 @@ export const QUESTIONS = [
 		ITERATION: 202108,
 		NO: 100,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2362,6 +2655,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 82,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2370,6 +2664,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 85,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2378,6 +2673,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 86,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2386,6 +2682,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 87,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2394,6 +2691,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 88,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2402,6 +2700,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 89,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2410,6 +2709,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 91,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2418,6 +2718,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 92,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2426,6 +2727,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 93,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2434,6 +2736,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 94,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2442,6 +2745,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 97,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2450,6 +2754,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 98,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2458,6 +2763,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 99,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2466,6 +2772,7 @@ export const QUESTIONS = [
 		ITERATION: 202105,
 		NO: 100,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2474,6 +2781,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 84,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2482,6 +2790,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 87,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2490,6 +2799,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 89,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2498,6 +2808,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 91,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2506,6 +2817,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 92,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2514,6 +2826,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 94,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2522,6 +2835,7 @@ export const QUESTIONS = [
 		ITERATION: 202103,
 		NO: 95,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2530,6 +2844,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 82,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2538,6 +2853,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 84,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2546,6 +2862,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 85,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2554,6 +2871,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 87,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2562,6 +2880,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 89,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2570,6 +2889,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 94,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2578,6 +2898,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 96,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2586,6 +2907,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 98,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2594,6 +2916,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 99,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2602,6 +2925,7 @@ export const QUESTIONS = [
 		ITERATION: 202009,
 		NO: 100,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2610,6 +2934,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 81,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2618,6 +2943,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 84,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2626,6 +2952,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 86,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2634,6 +2961,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 87,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2642,6 +2970,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 91,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2650,6 +2979,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 93,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2658,6 +2988,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 96,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2666,6 +2997,7 @@ export const QUESTIONS = [
 		ITERATION: 202008,
 		NO: 92,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2674,6 +3006,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 82,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2682,6 +3015,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 83,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2690,6 +3024,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 84,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2698,6 +3033,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 97,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 	{
@@ -2706,6 +3042,7 @@ export const QUESTIONS = [
 		ITERATION: 202006,
 		NO: 100,
 		IS_CORRECT: false,
+		IS_ENTERED: false,
 		SUBJECT: 5,
 	},
 ];
