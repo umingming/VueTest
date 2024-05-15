@@ -3622,7 +3622,7 @@ export const QUESTIONS = [
 		SUBJECT: 5,
 	},
 	{
-		ANSWER: "우수, 대용량",
+		ANSWER: "우수, 대용량, 복구",
 		QUESTION: `<NTFS의 특징> \r\n- FAT시스템을 대체하기 위해 개발된 윈도우 파일 시스템 \r\n- 보안 측면에서 FAT보다 (우수/취약)\r\n- (대용량/저용량) 볼륨에 효율적 \r\n- 자동 ㅇㅇ 및 안정성\r\n`,
 		ITERATION: 202203,
 		NO: 94,
