@@ -159,6 +159,8 @@ export default {
 	margin-top: 60px;
 	white-space: break-spaces;
 	line-height: 25px;
+	max-width: 800px;
+	margin: auto;
 }
 .subject-group button {
 	width: 50px;
@@ -179,6 +181,8 @@ export default {
 }
 .answer-box input {
 	margin-right: 10px;
+	width: 400px;
+	height: 20px;
 }
 .success {
 	margin-top: 10px;
