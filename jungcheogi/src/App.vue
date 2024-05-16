@@ -181,7 +181,7 @@ export default {
 }
 .answer-box input {
 	margin-right: 10px;
-	width: 400px;
+	width: calc(80% - 100px);
 	height: 20px;
 }
 .success {
