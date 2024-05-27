@@ -128,7 +128,7 @@ export const QUESTIONS = [
         ANSWER: "25, 10, 20, 15",
         TITLE: "퀵 정렬",
         QUESTION:
-            "다음 데이터에 대해서 분할 함수 Partition()을 한 번 적용한 후 왼쪽 부분배열에 존재하는 데이터를 순서대로 기입하시오.\r\n(단, 피벗은 맨 왼쪽 원소이고, 오름차순으로 정렬한다.)\r\n [30, 45, 20, 14, 40, 25, 35, 10]",
+            "다음 데이터에 대해서 분할 함수 Partition()을 한 번 적용한 후 왼쪽 부분배열에 존재하는 데이터를 순서대로 기입하시오.\r\n(단, 피벗은 맨 왼쪽 원소이고, 오름차순으로 정렬한다.)\r\n [30, 45, 20, 15, 40, 25, 35, 10]",
         ITERATION: 2019,
         NO: 6,
         IS_CORRECT: false,
@@ -654,7 +654,7 @@ export const QUESTIONS = [
         SUBJECT: 2,
     },
     {
-        ANSWER: "h, n, longn",
+        ANSWER: "h, n, logn",
         TITLE: "이진 탐색 트리 탐색 연산",
         QUESTION:
             "- 높이가 h라면 탐색 연산의 시간 복잡도는 O((h/logh/2h/0.5h))이다. \r\n- 최악의 탐색 성능을 갖는 경우, 입력 크기 n에 대한 시간 복잡도는 O((n/logn/n의 제곱/nlogn))\r\n- 최선의 탐색 성능을 갖는 경우, 시간 복잡도는 O((n/logn/n의 제곱/nlogn))",
