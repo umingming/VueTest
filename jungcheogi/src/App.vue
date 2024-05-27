@@ -1,7 +1,7 @@
 <template>
     <div class="subject-group">
         <button
-            v-for="key in 5"
+            v-for="key in 7"
             :key="key"
             :class="{ on: selectedSubject === key }"
             @click="selectSubject(key)"
@@ -18,6 +18,7 @@
             <button @click="shuffleQuestionList">Shuffle</button>
         </span>
         <div class="question-box">
+            <span>[ {{ currentQuestion.TITLE }} ]</span>
             {{ currentQuestion.QUESTION }}
         </div>
         <span id="serial">
@@ -183,6 +184,13 @@ export default {
     display: block;
     text-align: right;
     margin: 0px 30px;
+}
+
+.question-box span {
+    display: block;
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 5px;
 }
 
 .answer-box input {
