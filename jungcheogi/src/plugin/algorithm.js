@@ -62,7 +62,7 @@ export const QUESTIONS = [
         ANSWER: "최악, 3",
         TITLE: "점화식과 폐쇄형",
         QUESTION:
-            "퀵 정렬 (최악/최선) 알고리즘의 성능으로 T(1)=Θ(1), T(n)=T(n-1)+Θ(n)의 폐쇄형은?\r\n1)T(n)=Θ(logn)\r\n1)T(n)=Θ(logn)\r\n2)T(n)=Θ(n)\r\n3)T(n)=Θ(n²)\r\n4)T(n)=Θ(nlogn)",
+            "퀵 정렬 (최악/최선) 알고리즘의 성능으로 T(1)=Θ(1), T(n)=T(n-1)+Θ(n)의 폐쇄형은?\r\n11)T(n)=Θ(logn)\r\n2)T(n)=Θ(n)\r\n3)T(n)=Θ(n²)\r\n4)T(n)=Θ(nlogn)",
         ITERATION: 2019,
         NO: 6,
         IS_CORRECT: false,
@@ -73,7 +73,7 @@ export const QUESTIONS = [
         ANSWER: "이진, 1",
         TITLE: "점화식과 폐쇄형",
         QUESTION:
-            "ㅇㅇ탐색 알고리즘의 성능으로 T(1)=Θ(1), T(n)=T(n/2)+Θ(1)의 폐쇄형은?\r\n1)T(n)=Θ(logn)\r\n1)T(n)=Θ(logn)\r\n2)T(n)=Θ(n)\r\n3)T(n)=Θ(n²)\r\n4)T(n)=Θ(nlogn)",
+            "ㅇㅇ탐색 알고리즘의 성능으로 T(1)=Θ(1), T(n)=T(n/2)+Θ(1)의 폐쇄형은?\r\n1)T(n)=Θ(logn)\r\n2)T(n)=Θ(n)\r\n3)T(n)=Θ(n²)\r\n4)T(n)=Θ(nlogn)",
         ITERATION: 2019,
         NO: 7,
         IS_CORRECT: false,
@@ -84,7 +84,7 @@ export const QUESTIONS = [
         ANSWER: "2",
         TITLE: "점화식과 폐쇄형",
         QUESTION:
-            "T(1)=Θ(1), T(n)=T(n/2)+Θ(n)의 폐쇄형은?\r\n1)T(n)=Θ(logn)\r\n1)T(n)=Θ(logn)\r\n2)T(n)=Θ(n)\r\n3)T(n)=Θ(n²)\r\n4)T(n)=Θ(nlogn)",
+            "T(1)=Θ(1), T(n)=T(n/2)+Θ(n)의 폐쇄형은?\r\n1)T(n)=Θ(logn)\r\n2)T(n)=Θ(n)\r\n3)T(n)=Θ(n²)\r\n4)T(n)=Θ(nlogn)",
         ITERATION: 2019,
         NO: 6,
         IS_CORRECT: false,
@@ -95,7 +95,7 @@ export const QUESTIONS = [
         ANSWER: "2",
         TITLE: "점화식과 폐쇄형",
         QUESTION:
-            "T(1)=Θ(1), T(n)=2T(n/2)+Θ(1)의 폐쇄형은?\r\n1)T(n)=Θ(logn)\r\n1)T(n)=Θ(logn)\r\n2)T(n)=Θ(n)\r\n3)T(n)=Θ(n²)\r\n4)T(n)=Θ(nlogn)",
+            "T(1)=Θ(1), T(n)=2T(n/2)+Θ(1)의 폐쇄형은?\r\n1)T(n)=Θ(logn)\r\n2)T(n)=Θ(n)\r\n3)T(n)=Θ(n²)\r\n4)T(n)=Θ(nlogn)",
         ITERATION: 2019,
         NO: 6,
         IS_CORRECT: false,
@@ -106,7 +106,7 @@ export const QUESTIONS = [
         ANSWER: "최선, 합병, 4",
         TITLE: "점화식과 폐쇄형",
         QUESTION:
-            "퀵 정렬 (최선/최악), ㅇㅇ 정렬 알고리즘의 성능으로 T(1)=Θ(1), T(n)=2T(n/2)+Θ(n)의 폐쇄형은?\r\n1)T(n)=Θ(logn)\r\n1)T(n)=Θ(logn)\r\n2)T(n)=Θ(n)\r\n3)T(n)=Θ(n²)\r\n4)T(n)=Θ(nlogn)",
+            "퀵 정렬 (최선/최악), ㅇㅇ 정렬 알고리즘의 성능으로 T(1)=Θ(1), T(n)=2T(n/2)+Θ(n)의 폐쇄형은?\r\n1)T(n)=Θ(logn)\r\n2)T(n)=Θ(n)\r\n3)T(n)=Θ(n²)\r\n4)T(n)=Θ(nlogn)",
         ITERATION: 2019,
         NO: 6,
         IS_CORRECT: false,
@@ -205,7 +205,7 @@ export const QUESTIONS = [
         ANSWER: "크루스칼, 프림, 데이크스트라",
         TITLE: "욕심쟁이(greedy) 대표 고리즘",
         QUESTION:
-            "- 최소 신장 트리: ㅇㅇㅇㅇ 알고리즘, ㅇㅇ 알고리즘 - 단일 출발점에 대한 최단 경로: ㅇㅇㅇㅇㅇ 알고리즘",
+            "- 최소 신장 트리: ㅇㅇㅇㅇ 알고리즘, ㅇㅇ 알고리즘 \r\n- 단일 출발점에 대한 최단 경로: ㅇㅇㅇㅇㅇㅇ 알고리즘",
         ITERATION: 2019,
         NO: 17,
         IS_CORRECT: false,
