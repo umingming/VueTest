@@ -574,7 +574,7 @@ export const QUESTIONS = [
         NO: 17,
         IS_CORRECT: false,
         IS_ENTERED: false,
-        SUBJECT: 1,
+        SUBJECT: 6,
     },
     {
         ANSWER: "X, 불안정, O, 작은",

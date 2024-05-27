@@ -93,6 +93,7 @@ export default {
         const answerRef = ref(null);
         const currentAnswer = computed(() => currentQuestion.value.ANSWER);
         const isAnswerEntered = ref(false);
+        const enteredTime = ref(0);
 
         function initAnswer() {
             answerRef.value.value = "";
@@ -100,16 +101,18 @@ export default {
             isAnswerEntered.value = false;
         }
 
-        function checkAnswer() {
+        function checkAnswer({ timeStamp }) {
             if (isAnswerEntered.value) {
-                passAnswer();
-                return;
+                return timeStamp - enteredTime.value > 500
+                    ? passAnswer()
+                    : null;
             }
             const { value } = answerRef.value;
             currentQuestion.value.IS_CORRECT =
                 validateAnswer(currentAnswer.value) === validateAnswer(value);
 
             isAnswerEntered.value = true;
+            enteredTime.value = timeStamp;
         }
 
         function passAnswer() {
