@@ -577,10 +577,10 @@ export const QUESTIONS = [
         SUBJECT: 6,
     },
     {
-        ANSWER: "X, 불안정, O, 작은",
+        ANSWER: "X, O, 불안정, O, 작은",
         TITLE: "선택 정렬",
         QUESTION:
-            "- 입력 데이터의 상태에 따라 성능이 달라진다. (O/X)\r\n- (안정/불안정)적인 정렬 알고리즘\r\n- 제자리 정렬 알고리즘이다. (O/X)\r\n- 오름차순 정렬의 경우 주어진 데이터 중에서 가장 (작은/큰) 값부터 골라 차례로 나열한다.",
+            "- 입력 데이터의 상태에 따라 성능이 달라진다. (O/X)\r\n- 입력 데이터와 무관하게 언제나 동일한 시간 복잡도를 갖는다. (O/X)\r\n- (안정/불안정)적인 정렬 알고리즘\r\n- 제자리 정렬 알고리즘이다. (O/X)\r\n- 오름차순 정렬의 경우 주어진 데이터 중에서 가장 (작은/큰) 값부터 골라 차례로 나열한다.",
         ITERATION: 2018,
         NO: 20,
         IS_CORRECT: false,
@@ -761,5 +761,105 @@ export const QUESTIONS = [
         IS_CORRECT: false,
         IS_ENTERED: false,
         SUBJECT: 7,
+    },
+
+    //============================== 2017
+    {
+        ANSWER: 4,
+        TITLE: "이진 트리",
+        QUESTION:
+            "깊이가 k인 이진 트리가 가질 수 있는 노드의 최대 개수는? \r\n1) 2^(k-1)\r\n2) 2^(k-1)-1\r\n3) 2^k\r\n4) 2^k-1",
+        ITERATION: 2017,
+        NO: 2,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 1,
+    },
+    {
+        ANSWER: "분할정복, 욕심쟁이, NP-완전 문제",
+        TITLE: "알고리즘 설계기법",
+        QUESTION:
+            "- 이진 탐색: (욕심쟁이/분할정복)\r\n - 거스름돈 문제: (욕심쟁이/분할정복) \r\n - 0/1 배낭 문제: (동적 프로그래밍/NP-완전 문제)",
+        ITERATION: 2017,
+        NO: 3,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 1,
+    },
+    {
+        ANSWER: "logn, n, logn",
+        TITLE: "탐색 알고리즘 시간 복잡도",
+        QUESTION:
+            "- 이진 탐색: O((n/logn/nlogn))\r\n - 순차 탐색: O((n/logn/nlogn)) \r\n - 흑적 트리: O((n/logn/nlogn))",
+        ITERATION: 2017,
+        NO: 19,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 3,
+    },
+    {
+        ANSWER: "3, 4, X",
+        TITLE: "2-3-4 트리",
+        QUESTION:
+            "- 4-노드는 ㅇ개의 키와 ㅇ개의 자식을 갖는다. \r\n- 경사 트리가 발생한다. (O/X)",
+        ITERATION: 2017,
+        NO: 22,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 3,
+    },
+    {
+        ANSWER: "양, 독립된",
+        TITLE: "강연결 성분",
+        QUESTION:
+            "- 주어진 방향 그래프에서 임의의 두 정점 사이에 (단/양)방향의 경로가 존재하는 최대 부분 그래프 \r\n- 단방향 경로로 연결되는 정점은 (독립된/같은) 강연결 성분이다.",
+        ITERATION: 2017,
+        NO: 25,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 4,
+    },
+    {
+        ANSWER: 23,
+        TITLE: "허프만 코딩",
+        QUESTION:
+            "스트링 [abracadabra]를 허프만 코딩으로 압축하였을 때 인코딩된 메시지의 길이는 몇 비트인가?",
+        ITERATION: 2017,
+        NO: 30,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 6,
+    },
+    {
+        ANSWER: "블록, 양자, 엔트로피",
+        TITLE: "JPEG 표준의 압축 과정",
+        QUESTION: "ㅇㅇ화 -> DCT -> ㅇㅇ화 -> ㅇㅇㅇㅇ 코딩",
+        ITERATION: 2017,
+        NO: 31,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 6,
+    },
+    {
+        ANSWER: 3,
+        TITLE: "알고리즘 설계 기법",
+        QUESTION:
+            "문자열 X를 문자열 Y로 변환하는 데 필요한 전체 편집 연산에 대한 최소 비용을 계산하는 문제를 가장 효과적으로 해결할 수 있는 기법은? \r\n1) 분할정복 방법\r\n2) 상각 분석 방법\r\n3) 동적 프로그래밍 방법\r\n4) 욕심쟁이 방법",
+        ITERATION: 2017,
+        NO: 32,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 1,
+    },
+    {
+        ANSWER: "최적, 점화, 작은, 큰",
+        TITLE: "동적 프로그래밍",
+        QUESTION:
+            "주어진 문제가 ㅇㅇ성의 원리를 만족하면 적용 가능하며, 다음과 같은 과정을 따른다.\r\n - 주어진 문제에 대해서 최적해를 제공하는 ㅇㅇ식을 도출한다. \r\n - 가장 (작은/큰) 문제부터 해를 구한 뒤 이를 테이블에 저장한다. \r\n - 테이블에 저장된 문제의 해를 이용하여 점차적으로 (큰/작은) 문제의 해를 구한다.",
+        ITERATION: 2017,
+        NO: 33,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 5,
     },
 ];
