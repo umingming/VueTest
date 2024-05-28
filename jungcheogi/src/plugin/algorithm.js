@@ -787,6 +787,17 @@ export const QUESTIONS = [
         SUBJECT: 1,
     },
     {
+        ANSWER: 4,
+        TITLE: "버블 정렬",
+        QUESTION:
+            "한 단계의 수행 결과가 다음과 같을 때, 바로 다음 단계의 수행 결과를 얻기 위해서는 자리바꿈이 몇 번 발생하는가? \r\n 5(정렬), 35, 20, 10, 40, 25, 15, 30",
+        ITERATION: 2017,
+        NO: 8,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 2,
+    },
+    {
         ANSWER: "logn, n, logn",
         TITLE: "탐색 알고리즘 시간 복잡도",
         QUESTION:
@@ -862,4 +873,6 @@ export const QUESTIONS = [
         IS_ENTERED: false,
         SUBJECT: 5,
     },
+
+    //============================== 2016
 ];
