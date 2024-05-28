@@ -875,4 +875,26 @@ export const QUESTIONS = [
     },
 
     //============================== 2016
+    {
+        ANSWER: 5,
+        TITLE: "퀵 정렬",
+        QUESTION:
+            "다음 배열에 퀵 정렬의 분할 함수를 한 번 적용하였을 때 왼쪽 부분배열에 존재하는 데이터의 개수는? \r\n [26, 35, 15, 77, 10, 61, 11, 59, 17, 48, 19, 40, Infinity]",
+        ITERATION: 2016,
+        NO: 13,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 2,
+    },
+    {
+        ANSWER: "기수",
+        TITLE: "ㅇㅇ 정렬",
+        QUESTION:
+            "주어진 원소들의 키 값을 자릿수별로 나누어서 낮은 자리부터 높은 자리로 반복해서 안정적인 정렬 알고리즘을 적용하여 정렬을 수행",
+        ITERATION: 2016,
+        NO: 15,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 2,
+    },
 ];
