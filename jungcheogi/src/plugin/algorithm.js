@@ -897,4 +897,70 @@ export const QUESTIONS = [
         IS_ENTERED: false,
         SUBJECT: 2,
     },
+    {
+        ANSWER: 5,
+        TITLE: "이진 탐색 트리",
+        QUESTION:
+            "다음과 가튼 값들을 순서대로 삽입하여 이진 탐색 트리를 생성하였다. \r\n 이때 키 값 10을 탐색하는 데 필요한 최소의 비교 회수는?",
+        ITERATION: 2016,
+        NO: 20,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 3,
+    },
+    {
+        ANSWER: 4,
+        TITLE: "스트링 매칭",
+        QUESTION:
+            "브루트-포스 스트링 매칭 알고리즘에서 텍스트가 0000000001일 때, 비교횟수가 가장 적은 패턴의 형태는?\r\n1) 0001\r\n2) 0011\r\n3) 0111\r\n4) 1111",
+        ITERATION: 2016,
+        NO: 28,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 6,
+    },
+    {
+        ANSWER: 3,
+        TITLE: "스트링 매칭",
+        QUESTION:
+            "텍스트의 부분 스트링의 해시 값을 계산하여 그 값이 패턴의 해시 값과 일치하는지 비교하는 방식의 스트링 매칭 방법은?\r\n1) 보이어-무어 알고리즘\r\n2) 크루스칼 알고리즘\r\n3) 라빈-카프 알고리즘\r\n4) KMP 알고리즘",
+        ITERATION: 2016,
+        NO: 29,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 6,
+    },
+    {
+        ANSWER: 4,
+        TITLE: "문자열 압축",
+        QUESTION:
+            "한 번 나왔던 문자열이 다시 나오는 경우 문자열 대신 앞서 나온 위치와 길이로 변환하여 압축하는 방법?\r\n1) JPEG\r\n2) RLE\r\n3) MPEG\r\n4) LZ77",
+        ITERATION: 2016,
+        NO: 30,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 6,
+    },
+    {
+        ANSWER: "양자",
+        TITLE: "JPEG",
+        QUESTION:
+            "- ㅇㅇ화: JPEG는 손실 압축 방법으로, 처리 과정 중에서 데이터의 손실이 발생하는 단게",
+        ITERATION: 2016,
+        NO: 31,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 6,
+    },
+    {
+        ANSWER: 4,
+        TITLE: "PRAM",
+        QUESTION:
+            "PRAM 모델 중에서 데이터 관점에서 가장 현실적인 방식은?\r\n1) ERCW\r\n2) EREW\r\n3) CRCW\r\n4) CREW",
+        ITERATION: 2016,
+        NO: 34,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 7,
+    },
 ];
