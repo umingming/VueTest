@@ -963,4 +963,83 @@ export const QUESTIONS = [
         IS_ENTERED: false,
         SUBJECT: 7,
     },
+
+    //============================== 2015
+    {
+        ANSWER: 1,
+        TITLE: "정렬",
+        QUESTION:
+            "정렬을 수행하는 과정에서 내부적으로 다른 정렬 방법을 사용하는 것은?\r\n1) 기수 정렬\r\n2) 계수 정렬\r\n3) 삽입 정렬\r\n4) 합병 정렬",
+        ITERATION: 2015,
+        NO: 9,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 2,
+    },
+    {
+        ANSWER: "너비",
+        TITLE: "ㅇㅇ 우선 탐색",
+        QUESTION:
+            "주변 정점 중에서 오래된 것을 우선적으로 방문하는 그래프 순회 방법",
+        ITERATION: 2015,
+        NO: 17,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 4,
+    },
+    {
+        ANSWER: 1,
+        TITLE: "브루트-포스 스트링 매칭 알고리즘",
+        QUESTION:
+            "텍스트가 0000000001일 때 비교 횟수가 가장 많은 패턴의 형태는?\r\n1) 0001\r\n2) 0011\r\n3) 0111\r\n4) 1111",
+        ITERATION: 2015,
+        NO: 22,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 6,
+    },
+    {
+        ANSWER: "보이어-무어",
+        TITLE: "스트링 매칭",
+        QUESTION:
+            "- (보이어-무어/라빈-카프) 알고리즘: 불일치 문자 방법과 일치 접미부 방법 사용",
+        ITERATION: 2015,
+        NO: 23,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 6,
+    },
+    {
+        ANSWER: "결정론, 다항",
+        TITLE: "클래스 P",
+        QUESTION:
+            "(결정론/비결정론)적 튜링 기계에 의해 ㅇㅇ식 시간에 풀 수 있는 모든 판정 문제의 집합",
+        ITERATION: 2015,
+        NO: 29,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 7,
+    },
+    {
+        ANSWER: "변환",
+        TITLE: "ㅇㅇ",
+        QUESTION:
+            "문제 A의 입력과 출력을 문제 B의 입력과 출력 형태로 바꿀 수 있고\r\n 문제 B를 해결하는 알고리즘을 적용함으로써 궁극적으로 문제 A를 해결할 수 있다.",
+        ITERATION: 2015,
+        NO: 30,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 7,
+    },
+    {
+        ANSWER: 3,
+        TITLE: "PRAM",
+        QUESTION:
+            "PRAM 모델을 메모리 접근 방식에 따라 구분할 때\r\n 여러 프로세서가 메모리의 같은 위치에 동시에 접근하여 읽고 쓸 수 있는 방식은?\r\n1) ERCW\r\n2) EREW\r\n3) CRCW\r\n4) CREW",
+        ITERATION: 2016,
+        NO: 31,
+        IS_CORRECT: false,
+        IS_ENTERED: false,
+        SUBJECT: 7,
+    },
 ];
