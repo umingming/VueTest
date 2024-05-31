@@ -8,6 +8,14 @@
         >
             {{ key }}
         </button>
+        <button
+            v-for="key in subjects"
+            :key="key"
+            :class="{ on: selectedSubject === key }"
+            @click="selectSubject(key)"
+        >
+            {{ key }}
+        </button>
     </div>
     <div
         v-if="currentQuestion"
@@ -134,6 +142,7 @@ export default {
 
         return {
             // Subject
+            subjects: ["보안", "유비"],
             selectedSubject,
             selectSubject,
 
