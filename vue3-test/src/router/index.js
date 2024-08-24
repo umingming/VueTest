@@ -1,6 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 import createTestView from "@/views/createTestView";
 import MainView from "@/views/MainView";
+import EscapeView from "@/views/EscapeView";
 
 const routes = [
 	{
@@ -11,6 +12,11 @@ const routes = [
 		path: "/main",
 		name: "MainView",
 		component: MainView,
+	},
+	{
+		path: "/escape",
+		name: "EscapeView",
+		component: EscapeView,
 	},
 	{
 		path: "/youme",

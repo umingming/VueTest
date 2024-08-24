@@ -1,0 +1,32 @@
+[
+    {
+        "name": "두근두근 러브대작전",
+        "place": "플레이더월드 강남점",
+        "times": ["10:10am", "12:05pm"],
+        "cost": 24000,
+        "difficulty": 5,
+        "play": 70,
+        "rating": 8.38,
+        "site": "https://m.booking.naver.com/booking/12/bizes/999864/items/5566404?area=pll&entry=pll&tab=details&theme=place"
+    },
+    {
+        "name": "이웃집 또털어",
+        "place": "플레이더월드 강남점",
+        "times": ["10:00am"],
+        "cost": 26000,
+        "difficulty": 8,
+        "play": 80,
+        "rating": 8.91,
+        "site": "https://m.booking.naver.com/booking/12/bizes/999864/items/5399727?area=pll&entry=pll&tab=details&theme=place"
+    },
+    {
+        "name": "Back화점",
+        "place": "황금열쇠 강남점",
+        "times": ["10:00am"],
+        "cost": 26000,
+        "difficulty": 7,
+        "play": 70,
+        "rating": 9.06,
+        "site": "http://xn--jj0b998aq3cptw.com/layout/res/home.php?rev_days=2024-08-25&s_zizum=6&go=rev.make"
+    }
+]
